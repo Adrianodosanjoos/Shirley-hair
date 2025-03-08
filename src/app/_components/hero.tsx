@@ -11,7 +11,6 @@ export function Hero() {
             <Image
                 src={bg}
                 alt='logo'
-                className='object-contain'
                 fill
                 sizes='(max-width: 100%)'
             />
