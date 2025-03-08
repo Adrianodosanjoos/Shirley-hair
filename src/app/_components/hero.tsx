@@ -13,7 +13,7 @@ export function Hero() {
                 alt='logo'
                 className='object-contain'
                 fill
-                sizes='(max-width: full)'
+                sizes='(max-width: 100%)'
             />
 
             <div className='container mx-auto pt-16 pb-16 md:pb-0 px-4 relative'>
