@@ -1,5 +1,5 @@
 import {WhatsappLogo, InstagramLogo} from '@phosphor-icons/react/dist/ssr'
-import { PiWhatsappLogoBold } from 'react-icons/pi'
+
 
 export function Hero() {
     return(
