@@ -12,7 +12,7 @@ export function Hero() {
                 src={bg}
                 alt='logo'
                 fill
-                sizes='(max-width: 768px) 0 px, 50vw'
+                
                 
             />
 
