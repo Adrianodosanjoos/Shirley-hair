@@ -1,4 +1,5 @@
 import {WhatsappLogo, InstagramLogo} from '@phosphor-icons/react/dist/ssr'
+import { PiWhatsappLogoBold } from 'react-icons/pi'
 
 export function Hero() {
     return(
@@ -21,7 +22,7 @@ export function Hero() {
 
                         <a href="#" target="_blank"
                         className="bg-green-500 px-1 py-0.5 rounded-md font-semibold flex items-center w-fit gap-2">
-                            <WhatsappLogo className='w-5 h-5'/>
+                            <PiWhatsappLogoBold />
                             WhatsApp</a>
 
                         <a href="#" target="_blank"
