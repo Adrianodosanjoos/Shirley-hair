@@ -40,7 +40,7 @@ export function Hero() {
                     </div>
                    </div>
 
-                   <div className='hidden md:block h-full w-5 h-5'>
+                   <div className='hidden md:block h-full w-15'>
                     <Image
                     src={logoImg}
                     alt='logo'
