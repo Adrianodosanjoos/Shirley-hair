@@ -1,11 +1,12 @@
 import {WhatsappLogo, InstagramLogo} from '@phosphor-icons/react/dist/ssr'
 import logoImg from '../../../public/new logo transparente.png'
+import bg from '../../../public/logo black.jpg'
 import Image from 'next/image'
 
 
 export function Hero() {
     return(
-        <section className="bg-[#8d4925] text-white relative overflow-hidden">
+        <section className="bg-Image src={bg} text-white relative overflow-hidden">
 
             <div className='container mx-auto pt-16 pb-16 md:pb-0 px-4 relative'>
 
