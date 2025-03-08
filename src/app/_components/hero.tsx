@@ -11,8 +11,9 @@ export function Hero() {
             <Image
                 src={bg}
                 alt='logo'
-                className='hidden md:block h-full relative'
-                sizes='(max-width: 50%) 0 px, 50vw'
+                className='object-contain'
+                fill
+                sizes='(max-width: 768px) 0 px, 50vw'
                 
             />
 
