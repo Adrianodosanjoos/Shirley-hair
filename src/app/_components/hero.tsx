@@ -18,8 +18,12 @@ export function Hero() {
                     </p>
 
                     <div>
-                        <a href="#" target="_blank">WhatsApp</a>
-                        <a href="#" target="_blank">Instagran</a>
+                        <a href="#" target="_blank"
+                        className="bg-green-500 px-1 py-0.5 rounded-md font-semibold flex items-center">
+                            WhatsApp</a>
+                        <a href="#" target="_blank"
+                        className="bg-fuchsia-900 px-1 py-0.5 rounded-md font-semibold flex items-center">
+                            Instagran</a>
                     </div>
 
                     <div className="mt-8">
