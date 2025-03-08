@@ -9,7 +9,7 @@ export function Hero() {
 
               <article>
 
-                   <div>
+                   <div className='space-y-6'>
                     <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold font-serif">
                         Shirlei Nátali 
                     </h1>
@@ -22,7 +22,7 @@ export function Hero() {
 
                         <a href="#" target="_blank"
                         className="bg-green-500 px-1 py-0.5 rounded-md font-semibold flex items-center w-fit gap-2">
-                            <PiWhatsappLogoBold />
+                            <WhatsappLogo  className='w-5 h-5'/>
                             WhatsApp</a>
 
                         <a href="#" target="_blank"
@@ -36,6 +36,10 @@ export function Hero() {
                             Na linguagem Bantu, Trança significa ser <b className="text-white">Feliz</b>!
                         </p>
                     </div>
+                   </div>
+
+                   <div>
+                    <h1>Logo da empresa</h1>
                    </div>
 
               </article>
