@@ -1,6 +1,6 @@
 import { WhatsappLogo, InstagramLogo } from '@phosphor-icons/react/dist/ssr'
 import logoImg from '../../../public/new logo transparente.png'
-import bg from '../../../public/logo black.jpg'
+import bg from '../../../public/new logo fundo black.jpg'
 import Image from 'next/image'
 
 
@@ -11,6 +11,7 @@ export function Hero() {
             <Image
                 src={bg}
                 alt='logo'
+                className='relative overflow-hidden"'
                 fill
                 sizes='(max-width: 100%)'
             />
