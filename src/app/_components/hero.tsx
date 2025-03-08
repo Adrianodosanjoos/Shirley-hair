@@ -7,10 +7,10 @@ export function Hero() {
               <article>
 
                    <div>
-                    <h1>
+                    <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold ">
                         Shirlei Nátali 
                     </h1>
-                    <h2>
+                    <h2  className="text-2xl md:text-3xl lg:text-4xl font-bold ">
                     BraidsDesigner
                     </h2>
                     <p>
@@ -22,8 +22,8 @@ export function Hero() {
                         <a href="#" target="_blank">Instagran</a>
                     </div>
 
-                    <div>
-                        <p>
+                    <div className="mt-8">
+                        <p className="text-sm mb-4">
                             Na linguagem Bantu, Trança significa ser <b className="text-white">Feliz</b>!
                         </p>
                     </div>
