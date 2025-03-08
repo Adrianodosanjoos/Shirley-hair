@@ -13,7 +13,7 @@ export function Hero() {
                     <h2  className="text-2xl md:text-3xl lg:text-4xl font-bold mt-1 mb-1 font-serif">
                     BraidsDesigner
                     </h2>
-                    <p>
+                    <p className="lg:text-lg">
                     Tranças, todos os tipos de penteados p/noivas, Entrelaçamento/Nó Italiano, Colagem e restauração de laces e wigs Cursos e mentorias, vendas de produtos e acessórios p/cabelo.
                     </p>
 
