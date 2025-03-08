@@ -1,13 +1,14 @@
 import {WhatsappLogo, InstagramLogo} from '@phosphor-icons/react/dist/ssr'
+import{} from '../../../public/logo transparente.png'
 
 
 export function Hero() {
     return(
         <section className="bg-[#8d4925] text-white relative overflow-hidden">
 
-            <div>
+            <div className='container mx-auto py-16 px-4'>
 
-              <article className='grid grid-cols-1 lg:grid-cols-2'>
+              <article className='grid grid-cols-1 lg:grid-cols-2 gap-8 relative'>
 
                    <div className='space-y-6'>
                     <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold font-serif">
@@ -38,7 +39,7 @@ export function Hero() {
                     </div>
                    </div>
 
-                   <div>
+                   <div className='hidden md:block h-full'>
                     <h1>Logo da empresa</h1>
                    </div>
 
