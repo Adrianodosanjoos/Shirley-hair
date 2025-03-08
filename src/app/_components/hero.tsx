@@ -13,7 +13,7 @@ export function Hero() {
                 alt='logo'
                 className='object-contain mb-70%'
                 fill
-                sizes='(max-width: 100%) 50vw, 100vw'
+                sizes='(max-width: 100%) 100%, 100%'
                 
             />
 
