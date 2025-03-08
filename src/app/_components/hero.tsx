@@ -1,6 +1,6 @@
 import { WhatsappLogo, InstagramLogo } from '@phosphor-icons/react/dist/ssr'
-import logoImg from '../../../public/new logo transparente.png'
-import bg from '../../../public/new logo fundo black.jpg'
+import logoImg from '../../../public/new logo fundo black.png'
+import bg from '../../../public/new logo transparente.png'
 import Image from 'next/image'
 
 
@@ -11,8 +11,8 @@ export function Hero() {
             <Image
                 src={bg}
                 alt='logo'
-                fill
-                sizes='(max-width: 50%) '
+            
+                
             />
 
             <div className='container mx-auto pt-16 pb-16 md:pb-0 px-4 relative'>
