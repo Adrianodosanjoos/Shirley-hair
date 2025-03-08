@@ -12,7 +12,7 @@ export function Hero() {
                 src={bg}
                 alt='logo'
                 fill
-                sizes='(max-width: 70%)'
+                sizes='(max-width: 768px) 0 px, 50vw'
             />
 
             <div className='container mx-auto pt-16 pb-16 md:pb-0 px-4 relative'>
