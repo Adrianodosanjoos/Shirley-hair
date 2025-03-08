@@ -1,6 +1,6 @@
 export function Hero() {
     return(
-        <section className="bg-gray-900 text-white relative overflow-hidden">
+        <section className="bg-brown-900 text-white relative overflow-hidden">
 
             <div>
 
@@ -10,7 +10,7 @@ export function Hero() {
                     <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold font-serif">
                         Shirlei Nátali 
                     </h1>
-                    <h2  className="text-2xl md:text-3xl lg:text-4xl font-bold mt-1 mb-1">
+                    <h2  className="text-2xl md:text-3xl lg:text-4xl font-bold mt-1 mb-1 font-serif">
                     BraidsDesigner
                     </h2>
                     <p>
