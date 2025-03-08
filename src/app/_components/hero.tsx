@@ -1,3 +1,5 @@
+import {WhatsappLogo, InstagramLogo} from '@phosphor-icons/react/dist/ssr'
+
 export function Hero() {
     return(
         <section className="bg-[#8d4925] text-white relative overflow-hidden">
@@ -18,11 +20,13 @@ export function Hero() {
                     </p>
 
                         <a href="#" target="_blank"
-                        className="bg-green-500 px-1 py-0.5 rounded-md font-semibold flex items-center w-fit">
+                        className="bg-green-500 px-1 py-0.5 rounded-md font-semibold flex items-center w-fit gap-2">
+                            <WhatsappLogo className='w-5 h-5'/>
                             WhatsApp</a>
 
                         <a href="#" target="_blank"
-                        className="bg-fuchsia-900 px-1 py-0.5 rounded-md font-semibold flex items-center w-fit">
+                        className="bg-fuchsia-900 px-1 py-0.5 rounded-md font-semibold flex items-center w-fit gap-2">
+                            <InstagramLogo  className='w-5 h-5'/>
                             Instagran</a>
                     
 
