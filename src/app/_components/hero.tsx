@@ -6,12 +6,11 @@ import Image from 'next/image'
 
 export function Hero() {
     return (
-        <section className="bg-[#8d4925] text-white relative overflow-hidden">
+        <section className="bg-[#000000] text-white relative overflow-hidden">
 
             <Image
                 src={bg}
                 alt='logo'
-                className='relative overflow-hidden"'
                 fill
                 sizes='(max-width: 100%)'
             />
