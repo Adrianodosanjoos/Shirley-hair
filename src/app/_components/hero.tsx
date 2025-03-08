@@ -14,7 +14,7 @@ export function Hero() {
                     BraidsDesigner
                     </h2>
                     <p>
-                    Tranças todos os tipos de penteados p/noivas Entrelaçamento/Nó Italiano Colagem e restauração de laces e wigs Cursos e mentorias vendas de produtos e acessórios p/cabelo.
+                    Tranças, todos os tipos de penteados p/noivas, Entrelaçamento/Nó Italiano, Colagem e restauração de laces e wigs Cursos e mentorias, vendas de produtos e acessórios p/cabelo.
                     </p>
 
                     <div>
