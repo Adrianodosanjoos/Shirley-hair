@@ -19,10 +19,10 @@ export function Hero() {
 
                     <div>
                         <a href="#" target="_blank"
-                        className="bg-green-500 px-1 py-0.5 rounded-md font-semibold flex items-center">
+                        className="bg-green-500 px-1 py-0.5 rounded-md font-semibold flex items-center w-fit">
                             WhatsApp</a>
                         <a href="#" target="_blank"
-                        className="bg-fuchsia-900 px-1 py-0.5 rounded-md font-semibold flex items-center">
+                        className="bg-fuchsia-900 px-1 py-0.5 rounded-md font-semibold flex items-center w-fit">
                             Instagran</a>
                     </div>
 
