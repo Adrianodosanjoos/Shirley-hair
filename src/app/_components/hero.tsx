@@ -1,6 +1,6 @@
 export function Hero() {
     return(
-        <section className="bg-gray-950 text-white relative overflow-hidden">
+        <section className="bg-[#8d4925] text-white relative overflow-hidden">
 
             <div>
 
@@ -17,14 +17,14 @@ export function Hero() {
                     Tranças, todos os tipos de penteados p/noivas, Entrelaçamento/Nó Italiano, Colagem e restauração de laces e wigs Cursos e mentorias, vendas de produtos e acessórios p/cabelo.
                     </p>
 
-                    <div>
                         <a href="#" target="_blank"
                         className="bg-green-500 px-1 py-0.5 rounded-md font-semibold flex items-center w-fit">
                             WhatsApp</a>
+
                         <a href="#" target="_blank"
                         className="bg-fuchsia-900 px-1 py-0.5 rounded-md font-semibold flex items-center w-fit">
                             Instagran</a>
-                    </div>
+                    
 
                     <div className="mt-8">
                         <p className="text-sm mb-4">
