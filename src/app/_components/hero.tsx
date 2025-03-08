@@ -7,7 +7,7 @@ export function Hero() {
               <article>
 
                    <div>
-                    <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold font-sans">
+                    <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold font-serif">
                         Shirlei Nátali 
                     </h1>
                     <h2  className="text-2xl md:text-3xl lg:text-4xl font-bold mt-1 mb-1">
