@@ -1,5 +1,6 @@
 import {WhatsappLogo, InstagramLogo} from '@phosphor-icons/react/dist/ssr'
-import{} from '../../../public/logo transparente.png'
+import logoImg from '../../../public/logo transparente.png'
+import Image from 'next/image'
 
 
 export function Hero() {
@@ -40,7 +41,11 @@ export function Hero() {
                    </div>
 
                    <div className='hidden md:block h-full'>
-                    <h1>Logo da empresa</h1>
+                    <Image
+                    src={logoImg}
+                    alt='logo'
+                    className='object-contain'
+                    />
                    </div>
 
               </article>
