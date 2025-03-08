@@ -1,6 +1,6 @@
 export function Hero() {
     return(
-        <section className="bg-#652703 text-white relative overflow-hidden">
+        <section className="bg-gray-900 text-white relative overflow-hidden">
 
             <div>
 
