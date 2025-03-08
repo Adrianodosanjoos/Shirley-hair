@@ -9,11 +9,24 @@ export function Hero() {
                    <div>
                     <h1>
                         Shirlei Nátali 
-
-                        BraidsDesigner
-
-                        Tranças todos os tipos de penteados p/noivas Entrelaçamento/Nó Italiano Colagem e restauração de laces e wigs Cursos e mentorias vendas de produtos e acessórios p/cabelo.
                     </h1>
+                    <h2>
+                    BraidsDesigner
+                    </h2>
+                    <p>
+                    Tranças todos os tipos de penteados p/noivas Entrelaçamento/Nó Italiano Colagem e restauração de laces e wigs Cursos e mentorias vendas de produtos e acessórios p/cabelo.
+                    </p>
+
+                    <div>
+                        <a href="#" target="_blank">WhatsApp</a>
+                        <a href="#" target="_blank">Instagran</a>
+                    </div>
+
+                    <div>
+                        <p>
+                            Na linguagem Bantu, Trança significa ser <b className="text-white">Feliz</b>!
+                        </p>
+                    </div>
                    </div>
 
               </article>
