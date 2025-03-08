@@ -7,7 +7,7 @@ export function Hero() {
     return(
         <section className="bg-[#8d4925] text-white relative overflow-hidden">
 
-            <div className='container mx-auto py-16 px-4'>
+            <div className='container mx-auto pt-16 pb-16 md:pb-0 px-4 relative'>
 
               <article className='grid grid-cols-1 lg:grid-cols-2 gap-8 relative'>
 
@@ -40,11 +40,13 @@ export function Hero() {
                     </div>
                    </div>
 
-                   <div className='hidden md:block h-full w-max'>
+                   <div className='hidden md:block h-full relative'>
                     <Image
                     src={logoImg}
                     alt='logo'
                     className='object-contain'
+                    fill
+                    sizes='(max-width: 768px) 0 px, 50vw'
                     />
                    </div>
 
