@@ -1,7 +1,7 @@
 export function Hero() {
     return(
-        <div>
-            <h1>Hero Component 123</h1>
-        </div>
+        <section className="bg-amber-950 text-white">
+           
+        </section>
     )
 }
