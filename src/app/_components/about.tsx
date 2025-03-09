@@ -8,7 +8,8 @@ export function About () {
             <div className="container mx-auto grid-cols-1 lg:grid-cols-2 gap-12
             items-center">
                
-               <div className="relative">
+            <div className="relative">
+
                 <div className="relative w-full h-[400px] rounded-3xl overflow-hidden">
                     <Image
                     src={fotoInfantil1}
@@ -20,7 +21,7 @@ export function About () {
                     />
                 </div>
 
-                <div className="absolute w40 h-40 right-4 -bottom-8 border-4 
+                <div className="absolute w-40 h-40 right-4 -bottom-8 border-4 
                 overflow-hidden border-black rounded-lg">
                     <Image
                     src={fotoInfantil2}
@@ -31,7 +32,8 @@ export function About () {
                     priority
                     />
                 </div>
-                </div>
+
+          </div>
             </div>
 
         </section>
