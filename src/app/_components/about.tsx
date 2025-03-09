@@ -3,6 +3,8 @@ import Image from "next/image"
 import fotoInfantil1 from '../../../public/trança infantil6.jpg'
 import fotoInfantil2 from '../../../public/trança infantil5.jpg'
 import { Check } from "lucide-react"
+import { WhatsappLogo } from "@phosphor-icons/react/dist/ssr"
+import { InstagramLogo } from "@phosphor-icons/react/dist/ssr"
 export function About () {
     return (
         <section className="bg-black py-16">
@@ -70,9 +72,18 @@ export function About () {
                     <li className="flex items-center gap-2">
                         <Check className="text-red-500"/>
                        Mega Hair
-                    </li>
-                    
+                    </li>   
                 </ul>
+
+                <a href="#" target="_blank"
+                            className="bg-green-500 px-1 py-0.5 rounded-md font-semibold flex items-center w-fit gap-2">
+                            <WhatsappLogo className='w-5 h-5' />
+                            WhatsApp</a>
+
+                        <a href="#" target="_blank"
+                            className="bg-fuchsia-900 px-1 py-0.5 rounded-md font-semibold flex items-center w-fit gap-2">
+                            <InstagramLogo className='w-5 h-5' />
+                            Instagran</a>
 
                </div>
 
