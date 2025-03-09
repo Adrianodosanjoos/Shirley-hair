@@ -39,7 +39,7 @@ export function About() {
 
                 </div>
 
-                <div className="space-y-6 text-white">
+                <div className="space-y-6 text-white relative overflow-hidden">
 
                 <Image
                     src={imgfundo}
