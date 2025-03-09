@@ -8,13 +8,23 @@ export function Hero() {
     return (
         <section className="bg-[#000000] text-white relative overflow-hidden">
 
+            <div>
+                <Image
+                src={logoImg}
+                alt='foto logo'
+                fill
+                sizes='100vw'
+                priority
+                className='object-cover opacity-50'
+
+                />
+            </div>
+
             <Image
                 src={bg}
                 alt='logo'
-                className='object-contain'
+                className='object-cover opacity-50'
                 fill
-                
-                
             />
 
             <div className='container mx-auto pt-16 pb-16 md:pb-0 px-4 relative'>
@@ -57,6 +67,8 @@ export function Hero() {
                             className='object-contain'
                             fill
                             sizes='(max-width: 768px) 0 px, 50vw'
+                            quality={100}
+                            priority
                         />
                     </div>
 
