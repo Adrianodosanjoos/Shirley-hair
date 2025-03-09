@@ -65,7 +65,7 @@ export function Hero() {
                                     <Image
                                     src={logo2}
                                     alt='small logo'
-                                    className='object-fill'/>
+                                    className='object-fill hover:scale-110 duration-300'/>
                                 </div>
                             </div>
                         </div>
