@@ -5,6 +5,7 @@ import fotoInfantil2 from '../../../public/trança infantil5.jpg'
 import { Check } from "lucide-react"
 import { WhatsappLogo } from "@phosphor-icons/react/dist/ssr"
 import { InstagramLogo } from "@phosphor-icons/react/dist/ssr"
+import bg from '../../../public/new logo transparente.png'
 export function About () {
     return (
         <section className="bg-black py-16">
@@ -37,6 +38,13 @@ export function About () {
                 </div>
 
           </div>
+
+                 <Image
+                              src={bg}
+                              alt='logo'
+                              className='object-contain opacity-50'
+                              fill
+                          />
 
                <div className="space-y-6 text-white">
                 <h2 className="text-4xl font-serif flex align-text-center justify-center mt-5">SOBRE</h2>
