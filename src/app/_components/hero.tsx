@@ -61,7 +61,7 @@ export function Hero() {
                                 Na linguagem Bantu, Trança significa ser <b className="text-white">Feliz</b>!
                             </p>
                             <div className='flex mt-4'>
-                                <div className='w-10'>
+                                <div className='w-22 lg:block'>
                                     <Image
                                     src={logo2}
                                     alt='small logo'
