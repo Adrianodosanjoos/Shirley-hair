@@ -75,13 +75,13 @@ export function About () {
                     </li>   
                 </ul>
 
-                <a href="https://www.instagram.com/shirleibraids/" target="_blank"
-                            className="bg-green-500 px-1 py-0.5 rounded-md font-semibold flex items-center w-fit gap-2">
+                <a href="#" target="_blank"
+                            className="bg-green-500 px-4 py-2 rounded-md font-semibold flex justify-center items-center w-fit gap-2">
                             <WhatsappLogo className='w-5 h-5' />
                             WhatsApp</a>
 
-                        <a href="#" target="_blank"
-                            className="bg-fuchsia-900 px-1 py-0.5 rounded-md font-semibold flex items-center w-fit gap-2">
+                        <a href="https://www.instagram.com/shirleibraids/" target="_blank"
+                            className="bg-fuchsia-900 px-4 py-2 rounded-md font-semibold flex justify-center items-center w-fit gap-2">
                             <InstagramLogo className='w-5 h-5' />
                             Instagran</a>
 
