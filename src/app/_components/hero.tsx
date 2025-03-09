@@ -10,7 +10,7 @@ export function Hero() {
         <section className="bg-[#000000] text-white relative overflow-hidden">
 
             <div>
-          </div>      <Image
+              <Image
                 src={logoImg}
                 alt='foto logo'
                 fill
@@ -19,7 +19,7 @@ export function Hero() {
                 className='object-cover opacity-50 lg:hidden'
 
                 />
-            
+             </div> 
 
             <div className='absolute inset-0 bg-black opacity-40 md:hidden'></div>
 

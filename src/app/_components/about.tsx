@@ -50,7 +50,7 @@ export function About() {
                     alt="imgfundo"
                     sizes='100vw'
                     priority
-                    className='object-cover opacity-50 -z-10'
+                    className='object-contain opacity-50'
                     
                      />
 
