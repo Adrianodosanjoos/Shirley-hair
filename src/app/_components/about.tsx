@@ -44,6 +44,7 @@ export function About() {
                 <Image
                     src={imgfundo}
                     alt="imgfundo"
+                     sizes='100vw'
                     fill
                     priority
                     className='object-cover opacity-50 '
