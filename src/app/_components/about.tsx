@@ -49,7 +49,7 @@ export function About() {
                     src={imgfundo}
                     alt="imgfundo"
                     className='object-contain opacity-50'
-                    fill
+                    
                      />
 
                     <p>
@@ -62,7 +62,7 @@ export function About() {
 
                         <li className="flex items-center gap-2">
                             <Check className="text-red-500" />
-                            Trancista Proficional desde XXXX
+                            Trancista Proficional há mais de 20 anos
                         </li>
 
                         <li className="flex items-center gap-2">
