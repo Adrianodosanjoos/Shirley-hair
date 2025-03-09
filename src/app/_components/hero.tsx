@@ -1,6 +1,7 @@
 import { WhatsappLogo, InstagramLogo } from '@phosphor-icons/react/dist/ssr'
 import logoImg from '../../../public/foto de perfil.jpg'
 import bg from '../../../public/new logo transparente.png'
+import logo2 from '../../../public/logo transparente.png'
 import Image from 'next/image'
 
 
@@ -59,6 +60,14 @@ export function Hero() {
                             <p className="text-sm mb-4">
                                 Na linguagem Bantu, Trança significa ser <b className="text-white">Feliz</b>!
                             </p>
+                            <div className='flex mt-4'>
+                                <div className='w-32 hidden'>
+                                    <Image
+                                    src={logo2}
+                                    alt='small logo'
+                                    className='object-fill'/>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
