@@ -39,7 +39,7 @@ export function About () {
           </div>
 
                <div className="space-y-6 text-white">
-                <h2 className="text-4xl font-serif ml-20%">SOBRE</h2>
+                <h2 className="text-4xl font-serif ml-14">SOBRE</h2>
 
                 <p>
                     estou aguardando seu texto gatona para eu colocar ele aqui. e com isso passamos para a proxima faze e para voce ver 
