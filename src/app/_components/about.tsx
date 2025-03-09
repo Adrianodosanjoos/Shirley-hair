@@ -46,7 +46,6 @@ export function About() {
                     src={imgfundo}
                     alt="imgfundo"
                     sizes='100vw'
-                    priority
                     className='object-contain opacity-50'
                     
                      />
