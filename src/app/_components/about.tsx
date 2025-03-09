@@ -46,7 +46,7 @@ export function About() {
                     src={imgfundo}
                     alt="imgfundo"
                     sizes='100vw'
-                    className='object-contain opacity-50'
+                    className='object-contain opacity-50 -z-10'
                     
                      />
 
