@@ -44,6 +44,18 @@ export function About() {
 
                     <h2 className="text-4xl font-serif flex align-text-center justify-center mt-5">SOBRE</h2>
 
+                    <div>
+                <Image
+                src={imgfundo}
+                alt='foto logo'
+                fill
+                sizes='100vw'
+                priority
+                className='object-cover opacity-50 lg:hidden'
+
+                />
+                </div>
+
                     <Image
                         src={imgfundo}
                         alt='logo'
