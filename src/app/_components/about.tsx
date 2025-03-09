@@ -47,7 +47,10 @@ export function About() {
                    
                     <Image 
                     src={imgfundo}
-                    alt="imgfundo" />
+                    alt="imgfundo"
+                    className='object-contain opacity-50'
+                    fill
+                     />
 
                     <p>
                         estou aguardando seu texto gatona para eu colocar ele aqui. e com isso passamos para a proxima faze e para voce ver
