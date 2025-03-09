@@ -44,24 +44,10 @@ export function About() {
 
                     <h2 className="text-4xl font-serif flex align-text-center justify-center mt-5">SOBRE</h2>
 
-                    <div>
-                <Image
-                src={imgfundo}
-                alt='foto logo'
-                fill
-                sizes='100vw'
-                priority
-                className='object-cover opacity-50 lg:hidden'
-
-                />
-                </div>
-
-                    <Image
-                        src={imgfundo}
-                        alt='logo'
-                        className='object-contain opacity-50'
-                        fill
-                    />
+                   
+                    <Image 
+                    src={imgfundo}
+                    alt="imgfundo" />
 
                     <p>
                         estou aguardando seu texto gatona para eu colocar ele aqui. e com isso passamos para a proxima faze e para voce ver
