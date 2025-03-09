@@ -2,6 +2,7 @@
 import Image from "next/image"
 import fotoInfantil1 from '../../../public/trança infantil6.jpg'
 import fotoInfantil2 from '../../../public/trança infantil5.jpg'
+import { Check } from "lucide-react"
 export function About () {
     return (
         <section className="bg-black py-16">
@@ -41,8 +42,37 @@ export function About () {
                 <p>
                     estou aguardando seu texto gatona para eu colocar ele aqui. e com isso passamos para a proxima faze e para voce ver 
                     quais fotos é para colocar nao lado para ficar em destaque espero que voce leia e me de o seu piriquito e um retorno rsrsrsr
-                    
+
                 </p>
+
+                <ul className="space-y-4">
+
+                    <li className="flex items-center gap-2">
+                        <Check className="text-red-500"/>
+                        Trancista Proficional desde XXXX
+                    </li>
+
+                    <li className="flex items-center gap-2">
+                        <Check className="text-red-500"/>
+                       Curso de transita para iniciante 
+                    </li>
+
+                    <li className="flex items-center gap-2">
+                        <Check className="text-red-500"/>
+                        Penteados Para noivas
+                    </li>
+
+                    <li className="flex items-center gap-2">
+                        <Check className="text-red-500"/>
+                        Penteados Infantil
+                    </li>
+
+                    <li className="flex items-center gap-2">
+                        <Check className="text-red-500"/>
+                       Mega Hair
+                    </li>
+                    
+                </ul>
 
                </div>
 
