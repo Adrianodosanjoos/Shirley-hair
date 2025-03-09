@@ -41,12 +41,6 @@ export function About() {
 
                 <div className="space-y-6 text-white">
 
-                    <Image
-                        src={bg}
-                        alt='logo'
-                        className='object-contain opacity-50'
-                        fill
-                    />
 
                     <h2 className="text-4xl font-serif flex align-text-center justify-center mt-5">SOBRE</h2>
 
