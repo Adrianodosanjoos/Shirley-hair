@@ -39,17 +39,17 @@ export function About() {
 
                 </div>
 
-                <Image 
+                <div className="space-y-6 text-white">
+
+                <Image
                     src={imgfundo}
                     alt="imgfundo"
                     sizes='100vw'
-                    className='object-contain opacity-50 -z-10'
-                    
-                     />
+                    fill
+                    priority
+                    className='object-cover opacity-50 lg:hidden'
 
-                <div className="space-y-6 text-white">
-
-
+                />
 
                     <h2 className="text-4xl font-serif flex align-text-center justify-center mt-5">SOBRE</h2>
 
