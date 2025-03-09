@@ -42,10 +42,7 @@ export function About() {
                 <div className="space-y-6 text-white">
 
 
-                    <h2 className="text-4xl font-serif flex align-text-center justify-center mt-5">SOBRE</h2>
-
-                   
-                    <Image 
+                <Image 
                     src={imgfundo}
                     alt="imgfundo"
                     sizes='100vw'
@@ -53,6 +50,10 @@ export function About() {
                     className='object-contain opacity-50'
                     
                      />
+
+
+                    <h2 className="text-4xl font-serif flex align-text-center justify-center mt-5">SOBRE</h2>
+
 
                     <p>
                         estou aguardando seu texto gatona para eu colocar ele aqui. e com isso passamos para a proxima faze e para voce ver
