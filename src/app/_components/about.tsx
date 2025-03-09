@@ -48,7 +48,9 @@ export function About() {
                     <Image 
                     src={imgfundo}
                     alt="imgfundo"
-                    className='object-contain opacity-50'
+                    sizes='100vw'
+                    priority
+                    className='object-cover opacity-50 lg:hidden'
                     
                      />
 
