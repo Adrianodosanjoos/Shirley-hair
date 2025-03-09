@@ -1,7 +1,7 @@
 export function Map () {
     return (
         <div>
-            <h1>about</h1>
+            <h1>Mapa</h1>
         </div>
     )
 }
