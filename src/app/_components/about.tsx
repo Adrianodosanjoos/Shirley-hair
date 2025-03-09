@@ -39,9 +39,6 @@ export function About() {
 
                 </div>
 
-                <div className="space-y-6 text-white  relative overflow-hidden">
-
-
                 <Image 
                     src={imgfundo}
                     alt="imgfundo"
@@ -49,6 +46,9 @@ export function About() {
                     className='object-contain opacity-50 -z-10'
                     
                      />
+
+                <div className="space-y-6 text-white">
+
 
 
                     <h2 className="text-4xl font-serif flex align-text-center justify-center mt-5">SOBRE</h2>
