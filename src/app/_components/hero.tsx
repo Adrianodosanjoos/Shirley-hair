@@ -1,5 +1,5 @@
 import { WhatsappLogo, InstagramLogo } from '@phosphor-icons/react/dist/ssr'
-import logoImg from '../../../public/trança infantil6.jpg'
+import logoImg from '../../../public/foto de perfil.jpg'
 import bg from '../../../public/new logo transparente.png'
 import Image from 'next/image'
 
@@ -15,7 +15,7 @@ export function Hero() {
                 fill
                 sizes='100vw'
                 priority
-                className='object-cover opacity-50'
+                className='object-cover opacity-50 lg:hidden'
 
                 />
             </div>
@@ -23,7 +23,7 @@ export function Hero() {
             <Image
                 src={bg}
                 alt='logo'
-                className='object-cover opacity-50'
+                className='object-contain opacity-50'
                 fill
             />
 
