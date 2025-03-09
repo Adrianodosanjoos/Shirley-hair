@@ -20,6 +20,8 @@ export function Hero() {
                 />
             </div>
 
+            <div className='absolute inset-0 bg-black opacity-40 md:hidden'></div>
+
             <Image
                 src={bg}
                 alt='logo'
