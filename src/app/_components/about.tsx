@@ -34,6 +34,18 @@ export function About () {
                 </div>
 
           </div>
+
+               <div className="space-y-6">
+                <h2 className="text-4xl font-serif">SOBRE</h2>
+
+                <p>
+                    estou aguardando seu texto gatona para eu colocar ele aqui. e com isso passamos para a proxima faze e para voce ver 
+                    quais fotos é para colocar nao lado para ficar em destaque espero que voce leia e me de o seu piriquito e um retorno rsrsrsr
+                    
+                </p>
+
+               </div>
+
             </div>
 
         </section>
