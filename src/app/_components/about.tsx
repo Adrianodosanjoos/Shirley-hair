@@ -50,7 +50,7 @@ export function About() {
                     alt="imgfundo"
                     sizes='100vw'
                     priority
-                    className='object-cover opacity-50 lg:hidden'
+                    className='object-cover opacity-50 -z-10'
                     
                      />
 
