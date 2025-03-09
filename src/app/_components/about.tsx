@@ -75,7 +75,7 @@ export function About () {
                     </li>   
                 </ul>
 
-                <a href="#" target="_blank"
+                <a href="https://www.instagram.com/shirleibraids/" target="_blank"
                             className="bg-green-500 px-1 py-0.5 rounded-md font-semibold flex items-center w-fit gap-2">
                             <WhatsappLogo className='w-5 h-5' />
                             WhatsApp</a>

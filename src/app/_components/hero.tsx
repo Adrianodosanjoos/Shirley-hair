@@ -50,7 +50,7 @@ export function Hero() {
                             <WhatsappLogo className='w-5 h-5' />
                             WhatsApp</a>
 
-                        <a href="#" target="_blank"
+                        <a href="https://www.instagram.com/shirleibraids/" target="_blank"
                             className="bg-fuchsia-900 px-1 py-0.5 rounded-md font-semibold flex items-center w-fit gap-2">
                             <InstagramLogo className='w-5 h-5' />
                             Instagran</a>
