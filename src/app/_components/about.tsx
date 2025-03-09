@@ -5,7 +5,7 @@ import fotoInfantil2 from '../../../public/trança infantil5.jpg'
 import { Check } from "lucide-react"
 import { WhatsappLogo } from "@phosphor-icons/react/dist/ssr"
 import { InstagramLogo } from "@phosphor-icons/react/dist/ssr"
-import bg from '../../../public/new logo transparente.png'
+import imgfundo from '../../../public/new logo transparente.png'
 export function About() {
     return (
         <section className="bg-black py-16">
@@ -43,6 +43,13 @@ export function About() {
 
 
                     <h2 className="text-4xl font-serif flex align-text-center justify-center mt-5">SOBRE</h2>
+
+                    <Image
+                        src={imgfundo}
+                        alt='logo'
+                        className='object-contain opacity-50'
+                        fill
+                    />
 
                     <p>
                         estou aguardando seu texto gatona para eu colocar ele aqui. e com isso passamos para a proxima faze e para voce ver
