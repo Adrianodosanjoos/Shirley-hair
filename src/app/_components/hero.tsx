@@ -16,12 +16,12 @@ export function Hero() {
                 fill
                 sizes='100vw'
                 priority
-                className='object-cover opacity-50 lg:hidden'
+                className='object-cover opacity-70 lg:hidden'
 
                 />
              </div> 
 
-            <div className='absolute inset-0 bg-black opacity-40 md:hidden'></div>
+            <div className='absolute inset-0 bg-black opacity-60 md:hidden'></div>
 
             <Image
                 src={bg}
@@ -72,7 +72,7 @@ export function Hero() {
                                     src={logo2}
                                     alt='small logo'
                                     className='object-fill hover:scale-110 duration-300'/>
-                                </div>
+                                </div> 
                             </div>
                         </div>
                     </div>
