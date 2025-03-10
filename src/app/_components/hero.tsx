@@ -14,15 +14,16 @@ export function Hero() {
                 src={bg}
                 alt='foto logo'
                 fill
-               
+                sizes='100vw'
                 quality={100}
+                
 
                 className='object-cover  opacity-25 lg:max-w-xl lg:ml-117 lg:mt-2'
 
                 />
              </div> 
 
-            <div className='absolute inset-1 opacity-55 md:hidden'>
+            <div className='absolute inset-1 opacity-55 md:hidden z-10'>
 
             <Image
                 src={logoImg}
