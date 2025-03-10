@@ -66,7 +66,7 @@ export function Hero() {
 
                         <div className="mt-8">
                             <p className="text-sm mb-4">
-                                Na linguagem Bantu, Trança significa ser <b className="text-white">Feliz</b>!
+                                Na linguagem Bantu, Trançar significa ser <b className="text-white">Feliz</b>!
                             </p>
                             <div className='flex mt-4'>
                                {/* <div className='w-35 ml-10'>
