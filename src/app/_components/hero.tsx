@@ -16,7 +16,7 @@ export function Hero() {
                 fill
                 sizes='100vw'
                 priority
-                className='object-cover opacity-50 lg:hidden'
+                className='object-contain opacity-50 lg:hidden'
 
                 />
              </div> 
