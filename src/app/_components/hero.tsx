@@ -11,20 +11,20 @@ export function Hero() {
 
             <div>
               <Image
-                src={bg}
+                src={logoImg}
                 alt='foto logo'
                 fill
                 sizes='100vw'
                 priority
-                className='object-cover opacity-15 lg:max-w-xl lg:ml-117 lg:mt-2'
+                className='object-cover opacity-65 lg:max-w-xl lg:ml-117 lg:mt-2'
 
                 />
              </div> 
 
-            <div className='absolute inset-0 bg-black opacity-80 md:hidden'>
+            <div className='absolute inset-0 bg-black opacity-15 md:hidden'>
 
             <Image
-                src={logoImg}
+                src={bg}
                 alt='logo'
                 className='object-fill'
                 fill
