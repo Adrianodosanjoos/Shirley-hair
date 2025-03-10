@@ -16,9 +16,10 @@ export function Hero() {
                 <Image
                     src={logoImg}
                     alt='logo'
-                    className='object-contain'
+                    className='object-contain opacity-60'
                     fill
-                    sizes='(max-width: 769px) 0 px, 50vw'
+                    
+                    sizes='100vw'
                 />
             </div>
 
