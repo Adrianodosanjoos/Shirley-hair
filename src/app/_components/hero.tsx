@@ -16,12 +16,12 @@ export function Hero() {
                 fill
                 sizes='100vw'
                 priority
-                className='object-cover opacity-100 lg:hidden'
+                className='object-cover opacity-80 lg:hidden'
 
                 />
              </div> 
 
-            <div className='absolute inset-0 bg-black opacity-100 md:hidden'>
+            <div className='absolute inset-0 bg-black opacity-80 md:hidden'>
 
             <Image
                 src={bg}
@@ -30,6 +30,7 @@ export function Hero() {
                 fill
             />
         </div>
+
          <div className='container mx-auto pt-10 pb-10 md:pb-0 px-4 relative'>
             <div className='flex'>
             <div>
@@ -37,7 +38,7 @@ export function Hero() {
                 src={bg}
                 alt='foto logo'
                 fill
-              className='object-contain flex align-top'
+              className='object-fill flex align-top'
                 priority
 
                 />
