@@ -11,19 +11,6 @@ export function Hero() {
 
 
 
-            <div className='absolute inset-1 opacity-55 md:hidden'>
-
-                <Image
-                    src={logoImg}
-                    alt='logo'
-                    className='object-contain opacity-60 z-10'
-                    fill
-                    
-                    sizes='100vw'
-                />
-            </div>
-
-
             <div>
                 <Image
                     src={bg}
@@ -33,7 +20,7 @@ export function Hero() {
                     quality={100}
 
 
-                    className='object-cover  opacity-25 lg:max-w-xl lg:ml-117 lg:mt-2 z-0'
+                    className='object-cover  opacity-25 lg:max-w-xl lg:ml-117 lg:mt-2'
 
                 />
             </div>
