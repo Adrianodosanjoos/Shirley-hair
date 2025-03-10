@@ -24,7 +24,7 @@ export function Hero() {
             <div className='absolute inset-0 bg-black opacity-50 md:hidden'>
 
             <Image
-                src={bg}
+                src={logoImg}
                 alt='logo'
                 className='object-fill'
                 fill
