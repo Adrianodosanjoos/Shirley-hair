@@ -8,6 +8,17 @@ export function Hero() {
     return (
         <section className="bg-[#000000] text-white relative overflow-hidden ">
 
+            <div className='object-cover inset-1 md:hidden opacity-50'>
+
+                <Image
+                    src={logoImg}
+                    alt='logo'
+                    className='object-contain'
+                    fill
+                    sizes='100vw'
+                />
+            </div>
+
             <div>
                 <Image
                     src={bg}
@@ -27,16 +38,6 @@ export function Hero() {
 
                 <article className='grid grid-cols-1 lg:grid-cols-2 gap-8 relative'>
 
-                    <div className='object-cover inset-1 md:hidden opacity-50'>
-
-                        <Image
-                            src={logoImg}
-                            alt='logo'
-                            className='object-contain'
-                            fill
-                            sizes='100vw'
-                        />
-                    </div>
 
                     <div className='space-y-6'>
                         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold font-serif">
@@ -71,12 +72,12 @@ export function Hero() {
                                 Na linguagem Bantu, Trançar significa ser <b className="text-white">Feliz</b>!
                             </p>
                             <div className='flex mt-4'>
-                                 <div className='w-35 ml-10'>
+                                <div className='w-35 ml-10'>
                                     <Image
-                                    src={bg }
-                                    alt='small logo'
-                                    className='object-fill hover:scale-110 duration-300'/>
-                                </div> 
+                                        src={bg}
+                                        alt='small logo'
+                                        className='object-fill hover:scale-110 duration-300' />
+                                </div>
                             </div>
                         </div>
                     </div>
