@@ -30,7 +30,7 @@ export function Hero() {
 
                 <article className='grid grid-cols-1 lg:grid-cols-2 gap-8 relative'>
 
-                    <div className='absolute inset-1 opacity-55 md:hidden'>
+                    <div className='absolute inset-1 md:hidden'>
 
                         <Image
                             src={logoImg}
