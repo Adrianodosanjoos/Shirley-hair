@@ -11,7 +11,7 @@ export function Hero() {
 
             <div>
               <Image
-                src={logoImg}
+                src={bg}
                 alt='foto logo'
                 fill
                 sizes='100vw'
@@ -26,7 +26,7 @@ export function Hero() {
             <Image
                 src={bg}
                 alt='logo'
-                className='object-fill hover:scale-110 duration-300'
+                className='object-fill'
                 fill
             />
         </div>
