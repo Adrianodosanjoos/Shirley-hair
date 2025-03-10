@@ -41,21 +41,26 @@ export function About() {
 
                 <div className="space-y-6 text-white relative overflow-hidden">
 
-                <Image
-                    src={imgfundo}
-                    alt="imgfundo"
-                    fill
-                    priority
-                    className='object-cover opacity-50 lg:max-w-xl lg:ml-117 lg:mt-2'
+                    <Image
+                        src={imgfundo}
+                        alt="imgfundo"
+                        fill
+                        priority
+                        className='object-cover opacity-50 lg:max-w-xl lg:ml-117 lg:mt-2'
 
-                />
+                    />
 
-                    <h2 className="text-4xl font-serif flex align-text-center justify-center mt-5">SOBRE</h2>
+                    <h2 className="text-4xl font-serif flex align-text-center justify-center mt-8">Sobre Nós-Shirlei Braids</h2>
 
 
                     <p>
-                        estou aguardando seu texto gatona para eu colocar ele aqui. e com isso passamos para a proxima faze e para voce ver
-                        quais fotos é para colocar nao lado para ficar em destaque espero que voce leia e me de o seu piriquito e um retorno rsrsrsr
+                        Na Shirlei Braids, entendemos que cada cliente é único, e acreditamos que seus cabelos devem refletir sua personalidade e estilo. Nossa equipe de profissionais altamente treinados é especializada em diversas técnicas de tranças e penteados, atendendo a diferentes culturas e preferências. Seja para um evento especial, uma ocasião diária ou simplesmente para realçar sua beleza natural, temos a solução perfeita para você.
+
+                        Nosso compromisso vai além da estética. Valorizamos o atendimento ao cliente e a construção de relações duradouras. Aqui, você encontrará um ambiente acolhedor e amigável, onde cada cliente é tratado com carinho e respeito. Além disso, estamos sempre atualizados com as últimas tendências e inovações do setor, garantindo que você receba não apenas um serviço de alta qualidade, mas também uma experiência única.
+
+                        Na Shirlei Braids, acreditamos que a beleza é uma forma de arte e nossa missão é ajudar você a se sentir confiante e linda. Venha nos visitar e descubra como podemos transformar suas ideias em realidade. Estamos ansiosos para lhe atender e fazer parte da sua jornada de beleza!
+
+                        Shirlei Braids - onde sua beleza é nossa paixão
 
                     </p>
 
@@ -89,19 +94,19 @@ export function About() {
 
                     <div className="flex gap-4 relative">
 
-                    <a href="#" target="_blank"
-                        className="bg-green-500 px-4 py-2 rounded-md font-semibold flex justify-center
+                        <a href="#" target="_blank"
+                            className="bg-green-500 px-4 py-2 rounded-md font-semibold flex justify-center
                             hover:scale-110 duration-300 items-center w-fit gap-2">
-                        <WhatsappLogo className='w-5 h-5' />
-                        WhatsApp</a>
+                            <WhatsappLogo className='w-5 h-5' />
+                            WhatsApp</a>
 
-                    <a href="https://www.instagram.com/shirleibraids/" target="_blank"
-                        className="bg-[#833AB4] px-4 py-2 rounded-md font-semibold flex justify-center
+                        <a href="https://www.instagram.com/shirleibraids/" target="_blank"
+                            className="bg-[#833AB4] px-4 py-2 rounded-md font-semibold flex justify-center
                             hover:scale-110 duration-300 items-center w-fit gap-2">
-                        <InstagramLogo className='w-5 h-5' />
-                        Instagran</a>
-                   
-                        </div>
+                            <InstagramLogo className='w-5 h-5' />
+                            Instagran</a>
+
+                    </div>
                 </div>
 
             </div>

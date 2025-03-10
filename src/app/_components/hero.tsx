@@ -42,7 +42,11 @@ export function Hero() {
                             BraidsDesigner
                         </h2>
                         <p className="lg:text-lg">
-                            Tranças, todos os tipos de penteados p/noivas, Entrelaçamento/Nó Italiano, Colagem e restauração de laces e wigs Cursos e mentorias, vendas de produtos e acessórios p/cabelo.
+                        <b className="text-white">Bem-vindo à Shirlei Braids!</b> 
+                        Somos uma empresa dedicada à arte de tranças e penteados, 
+                        localizada no coração da comunidade. Com uma paixão profunda 
+                        pela beleza e pela individualidade, nossa missão é oferecer um espaço 
+                        onde a criatividade e a autoexpressão se encontram.
                         </p>
 
                         <a href="#" target="_blank"
