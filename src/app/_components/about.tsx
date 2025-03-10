@@ -60,7 +60,7 @@ export function About() {
 
                         Na Shirlei Braids, acreditamos que a beleza é uma forma de arte e nossa missão é ajudar você a se sentir confiante e linda. Venha nos visitar e descubra como podemos transformar suas ideias em realidade. Estamos ansiosos para lhe atender e fazer parte da sua jornada de beleza!
 
-                        <br /> <b className="text-white">Shirlei Braids - onde sua beleza é nossa paixão.</b> 
+                        <br/> <b className="text-white">Shirlei Braids - onde sua beleza é nossa paixão.</b> 
 
                     </p>
 
