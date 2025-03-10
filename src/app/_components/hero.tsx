@@ -16,7 +16,7 @@ export function Hero() {
                     fill
                     sizes='100vw'
                     quality={100}
-                    className='object-cover  opacity-25 lg:max-w-xl lg:ml-117 lg:mt-2'
+                    className='object-cover  opacity-15 lg:max-w-xl lg:ml-117 lg:mt-2'
 
                 />
             </div>
@@ -28,7 +28,7 @@ export function Hero() {
 
                 <article className='grid grid-cols-1 lg:grid-cols-2 gap-8 relative'>
 
-                    <div className='absolute inset-1 md:hidden opacity-70'>
+                    <div className='absolute inset-1 md:hidden opacity-30'>
 
                         <Image
                             src={logoImg}
