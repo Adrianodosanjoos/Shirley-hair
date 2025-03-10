@@ -21,7 +21,7 @@ export function Hero() {
                 />
              </div> 
 
-            <div className='absolute inset-0 bg-black opacity-50 md:hidden'>
+            <div className='absolute inset-0 bg-black opacity-10 md:hidden'>
 
             <Image
                 src={logoImg}
