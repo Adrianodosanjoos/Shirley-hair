@@ -43,7 +43,7 @@ export function Hero() {
                         </h2>
                         <p className="lg:text-lg">
                         <b className="text-white">Bem-vindo à Shirlei Braids!</b> 
-                        <br /> <span> </span> Somos uma empresa dedicada à arte de tranças e penteados, 
+                        <br />  Somos uma empresa dedicada à arte de tranças e penteados, 
                         localizada no coração da comunidade. Com uma paixão profunda 
                         pela beleza e pela individualidade, nossa missão é oferecer um espaço 
                         onde a criatividade e a autoexpressão se encontram.
