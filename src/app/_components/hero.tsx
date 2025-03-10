@@ -7,10 +7,10 @@ import Image from 'next/image'
 
 export function Hero() {
     return (
-        <section className="bg-[#000000] text-white relative overflow-hidden  z-10">
+        <section className="bg-[#000000] text-white relative overflow-hidden ">
 
 
-<div className='absolute inset-1 opacity-55 md:hidden'>
+<div className='absolute inset-1 opacity-55 md:hidden z-50'>
 
 <Image
     src={logoImg}
