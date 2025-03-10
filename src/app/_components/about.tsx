@@ -87,7 +87,7 @@ export function About() {
                         </li>
                     </ul>
 
-                    <div className="flex space-x-2">
+                    <div className="flex space-x-4">
 
                     <a href="#" target="_blank"
                         className="bg-green-500 px-4 py-2 rounded-md font-semibold flex justify-center
