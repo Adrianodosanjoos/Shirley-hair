@@ -17,7 +17,7 @@ export function Hero() {
                 sizes='100vw'
                 quality={100}
 
-                className='object-cover inset-0 opacity-25 lg:max-w-xl lg:ml-117 lg:mt-2'
+                className='object-cover  opacity-25 lg:max-w-xl lg:ml-117 lg:mt-2'
 
                 />
              </div> 
@@ -29,6 +29,7 @@ export function Hero() {
                 alt='logo'
                 className='object-contain'
                 fill
+                 sizes='(max-width: 768px) 0 px, 50vw'
             />
         </div>
 
