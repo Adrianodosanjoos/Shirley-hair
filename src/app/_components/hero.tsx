@@ -13,7 +13,8 @@ export function Hero() {
               <Image
                 src={bg}
                 alt='foto logo'
-               
+                fill
+                sizes='50vw'
                 quality={100}
 
                 className='object-cover  opacity-25 lg:max-w-xl lg:ml-117 lg:mt-2'
