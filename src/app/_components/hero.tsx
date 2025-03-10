@@ -16,7 +16,7 @@ export function Hero() {
                 <Image
                     src={logoImg}
                     alt='logo'
-                    className='object-contain opacity-60'
+                    className='object-contain opacity-60 z-10'
                     fill
                     
                     sizes='100vw'
