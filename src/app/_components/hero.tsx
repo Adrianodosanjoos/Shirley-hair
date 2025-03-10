@@ -7,11 +7,23 @@ import Image from 'next/image'
 
 export function Hero() {
     return (
-        <section className="bg-[#000000] text-white relative overflow-hidden">
+        <section className="bg-[#000000] text-white relative overflow-hidden  z-10">
 
 
+<div className='absolute inset-1 opacity-55 md:hidden'>
 
-            <div>
+<Image
+    src={logoImg}
+    alt='logo'
+    className='object-contain opacity-60'
+    fill
+    
+    sizes='100vw'
+/>
+</div>
+
+
+            <div className='z-0'>
                 <Image
                     src={bg}
                     alt='foto logo'
