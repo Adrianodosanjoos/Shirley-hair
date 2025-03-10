@@ -9,20 +9,6 @@ export function Hero() {
     return (
         <section className="bg-[#000000] text-white relative overflow-hidden ">
 
-
-<div className='absolute inset-1 opacity-55 md:hidden z-50'>
-
-<Image
-    src={logoImg}
-    alt='logo'
-    className='object-contain opacity-60'
-    fill
-    
-    sizes='100vw'
-/>
-</div>
-
-
             <div className='z-0'>
                 <Image
                     src={bg}
@@ -40,6 +26,19 @@ export function Hero() {
 
 
             <div className='container mx-auto pt-10 pb-10 md:pb-0 px-4 relative'>
+
+
+                <div className='absolute inset-1 opacity-55 md:hidden'>
+
+                    <Image
+                        src={logoImg}
+                        alt='logo'
+                        className='object-contain opacity-60'
+                        fill
+
+                        sizes='100vw'
+                    />
+                </div>
 
 
                 <article className='grid grid-cols-1 lg:grid-cols-2 gap-8 relative'>
