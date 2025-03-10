@@ -18,7 +18,7 @@ export function Hero() {
                     alt='logo'
                     className='object-contain'
                     fill
-                    sizes='(max-width: 768px) 0 px, 50vw'
+                    sizes='(max-width: 769px) 0 px, 50vw'
                 />
             </div>
 
