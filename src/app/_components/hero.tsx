@@ -16,7 +16,7 @@ export function Hero() {
                 fill
                 sizes='100vw'
                 priority
-                className='object-cover opacity-80 lg:hidden'
+                className='object-cover opacity-90 lg:hidden'
 
                 />
              </div> 
@@ -32,17 +32,7 @@ export function Hero() {
         </div>
 
          <div className='container mx-auto pt-10 pb-10 md:pb-0 px-4 relative'>
-            <div className='flex'>
-            <div>
-              <Image
-                src={bg}
-                alt='foto logo'
-                fill
-              className='object-fill flex align-top'
-                priority
-
-                />
-                 </div>
+           
 
                 <article className='grid grid-cols-1 lg:grid-cols-2 gap-8 relative'>
 
@@ -105,7 +95,7 @@ export function Hero() {
                 </article>
 
             </div>
-            </div>
+            
        
         </section>
     )
