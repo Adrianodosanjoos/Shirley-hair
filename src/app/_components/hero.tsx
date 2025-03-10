@@ -21,7 +21,7 @@ export function Hero() {
                 />
              </div> 
 
-            <div className='absolute inset-0 bg-black opacity-100 md:hidden'></div>
+            <div className='absolute inset-0 bg-black opacity-100 md:hidden'>
 
             <Image
                 src={bg}
@@ -29,7 +29,7 @@ export function Hero() {
                 className='object-fill hover:scale-110 duration-300'
                 fill
             />
-
+        </div>
          <div className='container mx-auto pt-10 pb-10 md:pb-0 px-4 relative'>
             <div className='flex'>
             <div>
