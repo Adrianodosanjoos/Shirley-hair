@@ -1,7 +1,7 @@
 import { WhatsappLogo, InstagramLogo } from '@phosphor-icons/react/dist/ssr'
 import logoImg from '../../../public/shirlei foto transparente.png'
 import bg from '../../../public/new logo transparente.png'
-{/* import logo2 from '../../../public/logo transparente.png'*/}
+{/* import logo2 from '../../../public/logo transparente.png'*/ }
 import Image from 'next/image'
 
 
@@ -9,33 +9,38 @@ export function Hero() {
     return (
         <section className="bg-[#000000] text-white relative overflow-hidden">
 
-            <div>
-              <Image
-                src={bg}
-                alt='foto logo'
-                fill
-                sizes='100vw'
-                quality={100}
-                
 
-                className='object-cover  opacity-25 lg:max-w-xl lg:ml-117 lg:mt-2'
+
+            <div className='absolute inset-1 opacity-55 md:hidden'>
+
+                <Image
+                    src={logoImg}
+                    alt='logo'
+                    className='object-contain'
+                    fill
+                    sizes='(max-width: 768px) 0 px, 50vw'
+                />
+            </div>
+
+
+            <div>
+                <Image
+                    src={bg}
+                    alt='foto logo'
+                    fill
+                    sizes='100vw'
+                    quality={100}
+
+
+                    className='object-cover  opacity-25 lg:max-w-xl lg:ml-117 lg:mt-2'
 
                 />
-             </div> 
+            </div>
 
-            <div className='absolute inset-1 opacity-55 md:hidden z-10'>
 
-            <Image
-                src={logoImg}
-                alt='logo'
-                className='object-contain'
-                fill
-                 sizes='(max-width: 768px) 0 px, 50vw'
-            />
-        </div>
 
-         <div className='container mx-auto pt-10 pb-10 md:pb-0 px-4 relative'>
-           
+            <div className='container mx-auto pt-10 pb-10 md:pb-0 px-4 relative'>
+
 
                 <article className='grid grid-cols-1 lg:grid-cols-2 gap-8 relative'>
 
@@ -47,11 +52,11 @@ export function Hero() {
                             BraidsDesigner
                         </h2>
                         <p className="lg:text-lg">
-                        <b className="text-white">Bem-vindo à Shirlei Braids!</b> 
-                        <br />  Somos uma empresa dedicada à arte de tranças e penteados, 
-                        localizada no coração da comunidade. Com uma paixão profunda 
-                        pela beleza e pela individualidade, nossa missão é oferecer um espaço 
-                        onde a criatividade e a autoexpressão se encontram.
+                            <b className="text-white">Bem-vindo à Shirlei Braids!</b>
+                            <br />  Somos uma empresa dedicada à arte de tranças e penteados,
+                            localizada no coração da comunidade. Com uma paixão profunda
+                            pela beleza e pela individualidade, nossa missão é oferecer um espaço
+                            onde a criatividade e a autoexpressão se encontram.
                         </p>
 
                         <a href="#" target="_blank"
@@ -72,7 +77,7 @@ export function Hero() {
                                 Na linguagem Bantu, Trançar significa ser <b className="text-white">Feliz</b>!
                             </p>
                             <div className='flex mt-4'>
-                               {/* <div className='w-35 ml-10'>
+                                {/* <div className='w-35 ml-10'>
                                     <Image
                                     src={logo2}
                                     alt='small logo'
@@ -81,7 +86,7 @@ export function Hero() {
                             </div>
                         </div>
                     </div>
-                    
+
 
                     <div className='hidden md:block h-full relative'>
                         <Image
@@ -98,8 +103,8 @@ export function Hero() {
                 </article>
 
             </div>
-            
-       
+
+
         </section>
     )
 }
