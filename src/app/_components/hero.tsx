@@ -16,12 +16,12 @@ export function Hero() {
                 fill
                 sizes='100vw'
                 priority
-                className='object-cover opacity-90 lg:hidden'
+                className='object-cover opacity-40 lg:hidden'
 
                 />
              </div> 
 
-            <div className='absolute inset-0 bg-black opacity-80 md:hidden'>
+            <div className='absolute inset-0 bg-black opacity-50 md:hidden'>
 
             <Image
                 src={bg}
