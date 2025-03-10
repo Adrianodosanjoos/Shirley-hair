@@ -26,7 +26,7 @@ export function Hero() {
             <Image
                 src={bg}
                 alt='logo'
-                className='object-contain opacity-90'
+                className='object-fill hover:scale-110 duration-300'=
                 fill
             />
 
