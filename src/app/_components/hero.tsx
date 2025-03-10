@@ -1,7 +1,6 @@
 import { WhatsappLogo, InstagramLogo } from '@phosphor-icons/react/dist/ssr'
 import logoImg from '../../../public/shirlei foto transparente.png'
 import bg from '../../../public/new logo transparente.png'
-{/* import logo2 from '../../../public/logo transparente.png'*/ }
 import Image from 'next/image'
 
 
@@ -72,12 +71,12 @@ export function Hero() {
                                 Na linguagem Bantu, Trançar significa ser <b className="text-white">Feliz</b>!
                             </p>
                             <div className='flex mt-4'>
-                                {/* <div className='w-35 ml-10'>
+                                 <div className='w-35 ml-10'>
                                     <Image
-                                    src={logo2}
+                                    src={bg }
                                     alt='small logo'
                                     className='object-fill hover:scale-110 duration-300'/>
-                                </div> */}
+                                </div> 
                             </div>
                         </div>
                     </div>
