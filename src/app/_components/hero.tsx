@@ -27,7 +27,7 @@ export function Hero() {
             <Image
                 src={logoImg}
                 alt='logo'
-                className='object-fill'
+                className='object-contain'
                 fill
             />
         </div>
