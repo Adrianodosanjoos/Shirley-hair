@@ -30,7 +30,18 @@ export function Hero() {
                 fill
             />
 
-            <div className='container mx-auto pt-10 pb-10 md:pb-0 px-4 relative'>
+         <div className='container mx-auto pt-10 pb-10 md:pb-0 px-4 relative'>
+            <div className='flex'>
+            <div>
+              <Image
+                src={logoImg}
+                alt='foto logo'
+                fill
+              className='object-contain'
+                priority
+
+                />
+                 </div>
 
                 <article className='grid grid-cols-1 lg:grid-cols-2 gap-8 relative'>
 
@@ -76,6 +87,7 @@ export function Hero() {
                             </div>
                         </div>
                     </div>
+                    
 
                     <div className='hidden md:block h-full relative'>
                         <Image
@@ -92,7 +104,8 @@ export function Hero() {
                 </article>
 
             </div>
-
+            </div>
+       
         </section>
     )
 }
