@@ -96,7 +96,7 @@ export function About() {
                         WhatsApp</a>
 
                     <a href="https://www.instagram.com/shirleibraids/" target="_blank"
-                        className="bg-fuchsia-900 px-4 py-2 rounded-md font-semibold flex justify-center
+                        className="bg-[#833AB4] px-4 py-2 rounded-md font-semibold flex justify-center
                             hover:scale-110 duration-300 items-center w-fit gap-2">
                         <InstagramLogo className='w-5 h-5' />
                         Instagran</a>
