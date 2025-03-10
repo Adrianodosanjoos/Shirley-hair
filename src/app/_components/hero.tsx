@@ -17,12 +17,12 @@ export function Hero() {
                 sizes='100vw'
                 quality={100}
 
-                className='object-cover opacity-25 lg:max-w-xl lg:ml-117 lg:mt-2'
+                className='object-cover inset-0 opacity-25 lg:max-w-xl lg:ml-117 lg:mt-2'
 
                 />
              </div> 
 
-            <div className='absolute inset-0 opacity-55 md:hidden'>
+            <div className='absolute inset-1 opacity-55 md:hidden'>
 
             <Image
                 src={logoImg}
