@@ -11,10 +11,11 @@ export function Hero() {
 
             <div>
               <Image
-                src={logoImg}
+                src={bg}
                 alt='foto logo'
                 fill
                 sizes='100vw'
+                quality={100}
                 priority
                 className='object-cover opacity-65 lg:max-w-xl lg:ml-117 lg:mt-2'
 
