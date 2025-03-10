@@ -16,7 +16,7 @@ export function Hero() {
                 fill
                 sizes='100vw'
                 priority
-                className='object-cover opacity-40'
+                className='object-fil opacity-40'
 
                 />
              </div> 
