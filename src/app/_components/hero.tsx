@@ -16,7 +16,7 @@ export function Hero() {
                     fill
                     sizes='100vw'
                     quality={100}
-                    className='object-cover  opacity-15 lg:max-w-xl lg:ml-117 lg:mt-2'
+                    className='object-cover  opacity-5 lg:max-w-xl lg:ml-117 lg:mt-2'
 
                 />
             </div>
