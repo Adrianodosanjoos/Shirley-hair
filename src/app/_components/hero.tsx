@@ -8,7 +8,7 @@ export function Hero() {
     return (
         <section className="bg-[#000000] text-white relative overflow-hidden ">
 
-            <div className='relative inset-1 md:hidden z-10'>
+            <div className='object-cover inset-1 md:hidden z-10'>
 
                 <Image
                     src={logoImg}
