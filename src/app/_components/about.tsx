@@ -1,6 +1,6 @@
 
 import Image from "next/image"
-import fotoInfantil1 from '../../../public/trança infantil6.jpg'
+import perfil from '../../../public/foto de perfil.jpg'
 import fotoInfantil2 from '../../../public/trança infantil5.jpg'
 import { Check } from "lucide-react"
 import { WhatsappLogo } from "@phosphor-icons/react/dist/ssr"
@@ -16,8 +16,8 @@ export function About() {
 
                     <div className="relative w-full h-[400px] rounded-3xl overflow-hidden">
                         <Image
-                            src={fotoInfantil1}
-                            alt="fotoInfantil1"
+                            src={perfil}
+                            alt="perfil"
                             fill
                             quality={100}
                             className="object-cover hover:scale-110 duration-300"
