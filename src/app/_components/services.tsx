@@ -49,7 +49,20 @@ export function Services() {
             
             <div className="relative">
 
-                <div className='overflow-hidden' ref={emblaRef}></div>
+                <div className='overflow-hidden' ref={emblaRef}>
+                    <div className='flex'>
+                        {services.map((item, index) => (
+                               <div key={index} className=' flex-[0_0_100%] min-w-0 md:flex-[calc(100%/3)] px-3'>
+                                   <article className='bg-[#1e293b] text-white rounded-2xl p-6 space-y-4 h-full 
+                                   flex flex-col '>
+                                    <div className='flex-1 items-start '></div>
+
+                                   </article>
+                               </div>
+                        ))}
+
+                    </div>
+                </div>
 
             </div>
         </div>
