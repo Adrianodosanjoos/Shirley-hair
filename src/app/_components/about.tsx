@@ -53,7 +53,7 @@ export function About() {
 
                         />
 
-                        <h2 className="text-4xl font-serif flex align-text-center justify-center">Sobre Nós-Shirlei Braids</h2>
+                        <h2 className="text-3xl lg:text-4xl font-serif flex align-text-center justify-center">Sobre Nós-Shirlei Braids</h2>
 
 
                         <p>
