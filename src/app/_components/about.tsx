@@ -42,14 +42,14 @@ export function About() {
 
                     </div>
 
-                    <div className="space-y-6 text-white relative overflow-hidden mt-10 lg:flex">
+                    <div className="space-y-6 text-white relative overflow-hidden mt-10">
 
                         <Image
                             src={imgfundo}
                             alt="imgfundo"
                             fill
                             priority
-                            className='object-cover opacity-50 lg:max-w-xl lg:items-center lg:content-center'
+                            className='object-cover opacity-50 lg:max-w-xl  lg:flex lg:items-center lg:content-center'
 
                         />
 
