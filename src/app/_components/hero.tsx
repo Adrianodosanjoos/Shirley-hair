@@ -41,10 +41,10 @@ export function Hero() {
 
 
                     <div className='space-y-6'>
-                        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold font-serif">
+                        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold font-serif flex align-text-center justify-center">
                             Shirlei Nátali
                         </h1>
-                        <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold font-serif">
+                        <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold font-serif flex align-text-center justify-center">
                             BraidsDesigner
                         </h2>
                         <p className="lg:text-lg">
