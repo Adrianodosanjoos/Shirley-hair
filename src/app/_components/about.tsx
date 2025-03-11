@@ -49,7 +49,7 @@ export function About() {
                             alt="imgfundo"
                             fill
                             priority
-                            className='object-cover max-h-80 opacity-50 lg:max-w-xl lg:ml-11'
+                            className='object-cover max-h-80 mt-14 opacity-50 lg:max-w-xl lg:ml-11'
 
                         />
 
