@@ -1,9 +1,12 @@
 export function Services() {
     return (
-     <section>
-        <h1>
-            serviços 
-        </h1>
+     <section className="bg-black py-16">
+        <div className="container mx-auto px-4">
+            <div>
+                <h2 className="font-serif font-4xl font-with">Serviços</h2>
+            </div>
+        </div>
+        
         </section>
     )
  
