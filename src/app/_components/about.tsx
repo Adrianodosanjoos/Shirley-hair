@@ -17,13 +17,13 @@ export function About() {
 
                     <div className="relative">
 
-                        <div className="object-cover mb-20 w-full h-[400px] lg:h-[800] rounded-3xl overflow-hidden ">
+                        <div className="object-cover mb-20 w-full h-[400px] rounded-3xl overflow-hidden ">
                             <Image
                                 src={perfil}
                                 alt="perfil"
                                 fill
                                 quality={100}
-                                className="object-cover hover:scale-110 duration-300 "
+                                className="object-contain hover:scale-110 duration-300 "
                                 priority
                             />
                         </div>
