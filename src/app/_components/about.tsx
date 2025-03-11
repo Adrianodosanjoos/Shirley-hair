@@ -9,7 +9,7 @@ import imgfundo from '../../../public/new logo transparente.png'
 export function About() {
     return (
         <section className="bg-black py-16">
-            <div className="container mx-auto grid-cols-1 lg:grid-cols-2 gap-12
+            <div className="container px-4 mx-auto grid-cols-1 lg:grid-cols-2 gap-12
             items-center">
 
                 <div className="relative">
@@ -39,7 +39,7 @@ export function About() {
 
                 </div>
 
-                <div className="space-y-6 text-white relative overflow-hidden">
+                <div className="space-y-6 text-white relative overflow-hidden mt-10">
 
                     <Image
                         src={imgfundo}
@@ -50,7 +50,7 @@ export function About() {
 
                     />
 
-                    <h2 className="text-4xl font-serif flex align-text-center justify-center mt-8">Sobre Nós-Shirlei Braids</h2>
+                    <h2 className="text-4xl font-serif flex align-text-center justify-center">Sobre Nós-Shirlei Braids</h2>
 
 
                     <p>
