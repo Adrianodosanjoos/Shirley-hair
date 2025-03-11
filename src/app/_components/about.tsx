@@ -17,7 +17,7 @@ export function About() {
 
                     <div className="relative">
 
-                        <div className="object-cover mb-20 w-full h-[400px] lg:h-[200] rounded-3xl overflow-hidden ">
+                        <div className="object-cover mb-20 w-full h-[400px] lg:h-[800] rounded-3xl overflow-hidden ">
                             <Image
                                 src={perfil}
                                 alt="perfil"
