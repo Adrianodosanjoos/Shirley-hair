@@ -23,7 +23,7 @@ export function About() {
                                 alt="perfil"
                                 fill
                                 quality={100}
-                                className="object-cover hover:scale-110 duration-300 "
+                                className="object-cover hover:scale-110 duration-300 lg:w-40 lg:h-40"
                                 priority
                             />
                         </div>
