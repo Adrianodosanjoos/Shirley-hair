@@ -5,7 +5,7 @@ import fotoInfantil2 from '../../../public/trança infantil5.jpg'
 import { Check } from "lucide-react"
 import { WhatsappLogo } from "@phosphor-icons/react/dist/ssr"
 import { InstagramLogo } from "@phosphor-icons/react/dist/ssr"
-import imgfundo from '../../../public/new logo transparente.png'
+import imgfundo from '../../../public/logo transparente.png'
 export function About() {
     return (
         <section className="bg-black py-16">

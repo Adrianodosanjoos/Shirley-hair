@@ -1,6 +1,6 @@
 import { WhatsappLogo, InstagramLogo } from '@phosphor-icons/react/dist/ssr'
 import logoImg from '../../../public/shirlei foto transparente.png'
-import bg from '../../../public/new logo transparente.png'
+import bg from '../../../public/logo transparente.png'
 import Image from 'next/image'
 
 
