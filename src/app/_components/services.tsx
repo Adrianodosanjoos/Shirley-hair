@@ -232,7 +232,7 @@ export function Services() {
                                         </div>
                                     </div>
 
-                                    <div>
+                                    <div className='border-t border-gray-700 pt-4 flex items-center justify-between'>
                                         <div className='flex items-center gap-2 text-sm'>
                                             <Clock className='w-4 h-4'/>
                                             <span>{item.duration}</span>
