@@ -49,6 +49,8 @@ export function Services() {
             
             <div className="relative">
 
+                     <h3 className="font-serif text-3xl text-white mb-12 flex align-text-center justify-center">Tranças Femininas</h3>
+
                 <div className='overflow-hidden' ref={emblaRef}>
                     <div className='flex'>
                         {services.map((item, index) => (
