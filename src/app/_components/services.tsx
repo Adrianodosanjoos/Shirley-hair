@@ -108,7 +108,7 @@ export function Services() {
         align:'start',
         slidesToScroll: 1,
         breakpoints:{
-            '(min-width:768px)': { slidesToScroll: 3,}
+            '(min-width:768px)': { slidesToScroll: 3}
         }
        })
 
@@ -131,8 +131,8 @@ export function Services() {
                                         <div>
                                             <span className='text-3xl'>{item.icon}</span>
                                             <div>
-                                                <h3>{item.title}</h3>
-                                                <img src={item.image.src}  alt={item.title} />
+                                                <h3 className='font-bold text-xl my-1'>{item.title}</h3>
+                                                <img className='select-none' src={item.image.src}  alt={item.title} />
                                                 
                                             </div>
                                         </div>
