@@ -199,7 +199,7 @@ export function Services() {
        const [emblaRef, emblaApi] = useEmblaCarousel({
         loop:false,
         align:'start',
-        slidesToScroll: 3,
+        slidesToScroll: 1,
         breakpoints: {
             '(min-width:768px)': { slidesToScroll: 3 }
         }
@@ -217,7 +217,7 @@ export function Services() {
                 <div className='overflow-hidden' ref={emblaRef}>
                     <div className='flex'>
                         {services.map((item, index) => (
-                               <div key={index} className=' flex-[0_0_100%] min-w-0 md:flex-[calc(100%/3)] px-3'>
+                               <div key={index} className=' flex-[0_0_100%] min-w-0 md:flex-[0_0_calc(100%/3)] px-3'>
                                    <article className='bg-[#1e293b] text-white rounded-2xl p-6 space-y-4 h-full 
                                    flex flex-col '>
                                     <div className='flex-1 items-start justify-between'>
