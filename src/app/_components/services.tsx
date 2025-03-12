@@ -236,8 +236,11 @@ export function Services() {
                                         <div className='flex items-center gap-2 text-sm'>
                                             <Clock className='w-4 h-4'/>
                                             <span>{item.duration}</span>
-                
-                                        </div>
+                                            </div>
+
+                                            <a className='flex items-center justify-center gap-2' href="http://" target="_blank">
+                                            Entrar em contato <WhatsappLogo/>
+                                            </a>
                                     </div>
                                           
                                    </article>
