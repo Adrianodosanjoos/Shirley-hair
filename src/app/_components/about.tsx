@@ -28,7 +28,7 @@ export function About() {
                             />
                         </div>
 
-                        <div className="absolute w-80 h-80 right-4 -bottom-8 border-4 
+                        <div className="absolute w-40 h-40 right-4 -bottom-8 border-4 
                                 overflow-hidden border-black rounded-lg">
                             <Image
                                 src={fotoInfantil2}
@@ -49,7 +49,7 @@ export function About() {
                             alt="imgfundo"
                             fill
                             priority
-                            className='object-cover max-h-96 mt-44 opacity-50 lg:max-w-xl lg:ml-11 lg:mb-10'
+                            className='object-cover max-h-96+10% mt-44 opacity-50 lg:max-w-xl+50 lg:ml-11 lg:mb-10'
 
                         />
 
