@@ -1,7 +1,7 @@
 'use client'
 
 import useEmblaCarousel from 'embla-carousel-react'
-import { ChevronLeft, ChevronRight, Scissors} from 'lucide-react'
+import { ChevronLeft, ChevronRight, Clock, Scissors} from 'lucide-react'
 import { Image, WhatsappLogo } from "@phosphor-icons/react"
 import { InstagramLogo } from "@phosphor-icons/react"
 import trança1 from '../../../public/tranca feminina.jpg'
@@ -222,13 +222,21 @@ export function Services() {
                                    flex flex-col '>
                                     <div className='flex-1 items-start justify-between'>
 
-                                        <div className=' gap-4'>
+                                        <div className='flex gap-3'>
                                             <span className='text-3xl'>{item.icon}</span>
                                             <div>
                                                 <h3 className='font-bold text-xl my-1'>{item.title}</h3>
                                                 <img className='select-none' src={item.image.src}  alt={item.title} />
                                                 
                                             </div>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div className='flex items-center gap-2 text-sm'>
+                                            <Clock className='w-4 h-4'/>
+                                            <span>{item.duration}</span>
+                
                                         </div>
                                     </div>
                                           
