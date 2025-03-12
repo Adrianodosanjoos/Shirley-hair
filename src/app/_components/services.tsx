@@ -97,7 +97,100 @@ const services = [
         icon: <Scissors/>,
         linkText:'Olá, vi no site sobre seu trabalho gostaria de mais informações.'
        
-    }
+    },
+
+
+    {
+        title: "Trança feminina",
+        image: trança1,
+        description: 'trancas femininas com produtos e e equipamentos de qualidade e com um atendimento humanizados e respeitoso',
+        duration: "4h",
+        price: 'Privado',
+        icon: <Scissors/>,
+        linkText:'Olá, vi no site sobre seu trabalho gostaria de mais informações.'
+       
+    },
+
+    {
+        title: "Trança feminina",
+        image: trança1,
+        description: 'trancas femininas com produtos e e equipamentos de qualidade e com um atendimento humanizados e respeitoso',
+        duration: "4h",
+        price: 'Privado',
+        icon: <Scissors/>,
+        linkText:'Olá, vi no site sobre seu trabalho gostaria de mais informações.'
+       
+    },
+
+
+    {
+        title: "Trança feminina",
+        image: trança1,
+        description: 'trancas femininas com produtos e e equipamentos de qualidade e com um atendimento humanizados e respeitoso',
+        duration: "4h",
+        price: 'Privado',
+        icon: <Scissors/>,
+        linkText:'Olá, vi no site sobre seu trabalho gostaria de mais informações.'
+       
+    },
+
+    
+    {
+        title: "Trança feminina",
+        image: trança1,
+        description: 'trancas femininas com produtos e e equipamentos de qualidade e com um atendimento humanizados e respeitoso',
+        duration: "4h",
+        price: 'Privado',
+        icon: <Scissors/>,
+        linkText:'Olá, vi no site sobre seu trabalho gostaria de mais informações.'
+       
+    },
+
+    {
+        title: "Trança feminina",
+        image: trança1,
+        description: 'trancas femininas com produtos e e equipamentos de qualidade e com um atendimento humanizados e respeitoso',
+        duration: "4h",
+        price: 'Privado',
+        icon: <Scissors/>,
+        linkText:'Olá, vi no site sobre seu trabalho gostaria de mais informações.'
+       
+    },
+
+    {
+        title: "Trança feminina",
+        image: trança1,
+        description: 'trancas femininas com produtos e e equipamentos de qualidade e com um atendimento humanizados e respeitoso',
+        duration: "4h",
+        price: 'Privado',
+        icon: <Scissors/>,
+        linkText:'Olá, vi no site sobre seu trabalho gostaria de mais informações.'
+       
+    },
+
+
+    {
+        title: "Trança feminina",
+        image: trança1,
+        description: 'trancas femininas com produtos e e equipamentos de qualidade e com um atendimento humanizados e respeitoso',
+        duration: "4h",
+        price: 'Privado',
+        icon: <Scissors/>,
+        linkText:'Olá, vi no site sobre seu trabalho gostaria de mais informações.'
+       
+    },
+
+    
+    {
+        title: "Trança feminina",
+        image: trança1,
+        description: 'trancas femininas com produtos e e equipamentos de qualidade e com um atendimento humanizados e respeitoso',
+        duration: "4h",
+        price: 'Privado',
+        icon: <Scissors/>,
+        linkText:'Olá, vi no site sobre seu trabalho gostaria de mais informações.'
+       
+    },
 ]
 
 
