@@ -51,7 +51,7 @@ const services = [
         icon: <Scissors/>,
         linkText:'Olá, vi no site sobre seu trabalho gostaria de mais informações.'
        
-    }
+    },
 
     {
         title: "Trança feminina",
