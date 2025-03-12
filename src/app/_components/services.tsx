@@ -2,7 +2,7 @@
 
 import useEmblaCarousel from 'embla-carousel-react'
 import { ChevronLeft, ChevronRight, Scissors} from 'lucide-react'
-import { WhatsappLogo } from "@phosphor-icons/react"
+import { Image, WhatsappLogo } from "@phosphor-icons/react"
 import { InstagramLogo } from "@phosphor-icons/react"
 import trança1 from '../../../public/tranca feminina.jpg'
 
@@ -55,8 +55,17 @@ export function Services() {
                                <div key={index} className=' flex-[0_0_100%] min-w-0 md:flex-[calc(100%/3)] px-3'>
                                    <article className='bg-[#1e293b] text-white rounded-2xl p-6 space-y-4 h-full 
                                    flex flex-col '>
-                                    <div className='flex-1 items-start '></div>
-
+                                    <div className='flex-1 items-start justify-between'>
+                                        <div>
+                                            <span className='text-3xl'>{item.icon}</span>
+                                            <div>
+                                                <h3>{item.title}</h3>
+                                                <img src={item.image.src}  alt={item.title} />
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                          
                                    </article>
                                </div>
                         ))}
