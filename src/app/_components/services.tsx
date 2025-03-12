@@ -199,7 +199,7 @@ export function Services() {
        const [emblaRef, emblaApi] = useEmblaCarousel({
         loop:false,
         align:'start',
-        slidesToScroll: 1,
+        slidesToScroll: 3,
         breakpoints: {
             '(min-width:768px)': { slidesToScroll: 3 }
         }
@@ -221,7 +221,8 @@ export function Services() {
                                    <article className='bg-[#1e293b] text-white rounded-2xl p-6 space-y-4 h-full 
                                    flex flex-col '>
                                     <div className='flex-1 items-start justify-between'>
-                                        <div>
+
+                                        <div className=' gap-4'>
                                             <span className='text-3xl'>{item.icon}</span>
                                             <div>
                                                 <h3 className='font-bold text-xl my-1'>{item.title}</h3>
