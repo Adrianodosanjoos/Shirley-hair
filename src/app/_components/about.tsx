@@ -28,7 +28,7 @@ export function About() {
                             />
                         </div>
 
-                        <div className="absolute w-40 h-40 right-4 -bottom-8 border-4 
+                        <div className="absolute w-60 h-60 right-4 -bottom-8 border-4 
                                 overflow-hidden border-black rounded-lg">
                             <Image
                                 src={fotoInfantil2}
