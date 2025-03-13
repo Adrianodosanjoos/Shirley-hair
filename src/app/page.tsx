@@ -1,7 +1,8 @@
 import { Hero } from "./_components/hero";
 import { About } from "./_components/about";
 import { Map } from "./_components/map";
-import { Infantil, Services } from "./_components/feminino";
+import { Services } from "./_components/feminino";
+import { Infantil } from "./_components/infantil";
 
 export default function Home() {
   return(
@@ -9,7 +10,7 @@ export default function Home() {
       <Hero/>
       <About/>
       <Services/>
-      <Infantil/>
+     <Infantil/>
       <Map/>
     </main>
   )
