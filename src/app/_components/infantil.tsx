@@ -1,7 +1,6 @@
 import useEmblaCarousel from 'embla-carousel-react'
 import { ChevronLeft, ChevronRight, Clock, Scissors} from 'lucide-react'
 import { Image, WhatsappLogo } from "@phosphor-icons/react"
-import { InstagramLogo } from "@phosphor-icons/react"
 import infantil from '../../../public/trança infantil.jpg'
 
 
