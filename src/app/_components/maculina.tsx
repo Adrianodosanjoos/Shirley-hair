@@ -119,7 +119,7 @@ export function Masculina() {
 
 
     return (
-     <section className="bg-black py-16 top-24">
+     <section className="bg-black py-16">
         <div className="container mx-auto px-4">
           
             
