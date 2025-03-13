@@ -221,11 +221,10 @@ export function Infantil() {
     return (
      <section className="bg-black py-16">
         <div className="container mx-auto px-4">
-            <h2 className="font-serif text-4xl text-white mb-12 flex align-text-center justify-center">Serviços</h2>
             
             <div className="relative">
 
-                     <h3 className="font-serif text-3xl text-white mb-12 flex align-text-center justify-center">Tranças Femininas</h3>
+                     <h3 className="font-serif text-3xl text-white mb-12 flex align-text-center justify-center">Tranças Infantil</h3>
 
                 <div className='overflow-hidden' ref={emblaRef}>
                     <div className='flex'>
