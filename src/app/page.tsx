@@ -3,6 +3,7 @@ import { About } from "./_components/about";
 import { Map } from "./_components/map";
 import { Services } from "./_components/feminino";
 import { Infantil } from "./_components/infantil";
+import { Masculina } from "./_components/maculina";
 
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <About/>
       <Services/>
      <Infantil/>
+     <Masculina/>
       <Map/>
     </main>
   )

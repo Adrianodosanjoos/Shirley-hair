@@ -97,7 +97,7 @@ const services = [
 
 
 
-export function Maculina() {
+export function Masculina() {
 
        const [emblaRef, emblaApi] = useEmblaCarousel({
         loop:false,
