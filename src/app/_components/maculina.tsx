@@ -3,24 +3,13 @@
 import useEmblaCarousel from 'embla-carousel-react'
 import { ChevronLeft, ChevronRight, Clock, Scissors} from 'lucide-react'
 import { Image, WhatsappLogo } from "@phosphor-icons/react"
-import trança1 from '../../../public/trança infatil 2.jpg'
-
+import { InstagramLogo } from "@phosphor-icons/react"
+import masculina from '../../../public/trança masculina3.jpg'
 
 const services = [
     {
         title: "Trança feminina",
-        image: trança1,
-        description: 'trancas femininas com produtos e e equipamentos de qualidade e com um atendimento humanizados e respeitoso',
-        duration: "4h",
-        price: 'Privado',
-        icon: <Scissors/>,
-        linkText:'Olá, vi no site sobre seu trabalho gostaria de mais informações.'
-       
-    },
-
-    {
-        title: "Trança feminina",
-        image: trança1,
+        image: masculina,
         description: 'trancas femininas com produtos e e equipamentos de qualidade e com um atendimento humanizados e respeitoso',
         duration: "4h",
         price: 'Privado',
@@ -32,41 +21,7 @@ const services = [
 
     {
         title: "Trança feminina",
-        image: trança1,
-        description: 'trancas femininas com produtos e e equipamentos de qualidade e com um atendimento humanizados e respeitoso',
-        duration: "4h",
-        price: 'Privado',
-        icon: <Scissors/>,
-        linkText:'Olá, vi no site sobre seu trabalho gostaria de mais informações.'
-       
-    },
-
-    
-    {
-        title: "Trança feminina",
-        image: trança1,
-        description: 'trancas femininas com produtos e e equipamentos de qualidade e com um atendimento humanizados e respeitoso',
-        duration: "4h",
-        price: 'Privado',
-        icon: <Scissors/>,
-        linkText:'Olá, vi no site sobre seu trabalho gostaria de mais informações.'
-       
-    },
-
-    {
-        title: "Trança feminina",
-        image: trança1,
-        description: 'trancas femininas com produtos e e equipamentos de qualidade e com um atendimento humanizados e respeitoso',
-        duration: "4h",
-        price: 'Privado',
-        icon: <Scissors/>,
-        linkText:'Olá, vi no site sobre seu trabalho gostaria de mais informações.'
-       
-    },
-
-    {
-        title: "Trança feminina",
-        image: trança1,
+        image: masculina,
         description: 'trancas femininas com produtos e e equipamentos de qualidade e com um atendimento humanizados e respeitoso',
         duration: "4h",
         price: 'Privado',
@@ -78,19 +33,7 @@ const services = [
 
     {
         title: "Trança feminina",
-        image: trança1,
-        description: 'trancas femininas com produtos e e equipamentos de qualidade e com um atendimento humanizados e respeitoso',
-        duration: "4h",
-        price: 'Privado',
-        icon: <Scissors/>,
-        linkText:'Olá, vi no site sobre seu trabalho gostaria de mais informações.'
-       
-    },
-
-    
-    {
-        title: "Trança feminina",
-        image: trança1,
+        image: masculina,
         description: 'trancas femininas com produtos e e equipamentos de qualidade e com um atendimento humanizados e respeitoso',
         duration: "4h",
         price: 'Privado',
@@ -102,18 +45,7 @@ const services = [
 
     {
         title: "Trança feminina",
-        image: trança1,
-        description: 'trancas femininas com produtos e e equipamentos de qualidade e com um atendimento humanizados e respeitoso',
-        duration: "4h",
-        price: 'Privado',
-        icon: <Scissors/>,
-        linkText:'Olá, vi no site sobre seu trabalho gostaria de mais informações.'
-       
-    },
-
-    {
-        title: "Trança feminina",
-        image: trança1,
+        image: masculina,
         description: 'trancas femininas com produtos e e equipamentos de qualidade e com um atendimento humanizados e respeitoso',
         duration: "4h",
         price: 'Privado',
@@ -125,41 +57,7 @@ const services = [
 
     {
         title: "Trança feminina",
-        image: trança1,
-        description: 'trancas femininas com produtos e e equipamentos de qualidade e com um atendimento humanizados e respeitoso',
-        duration: "4h",
-        price: 'Privado',
-        icon: <Scissors/>,
-        linkText:'Olá, vi no site sobre seu trabalho gostaria de mais informações.'
-       
-    },
-
-    
-    {
-        title: "Trança feminina",
-        image: trança1,
-        description: 'trancas femininas com produtos e e equipamentos de qualidade e com um atendimento humanizados e respeitoso',
-        duration: "4h",
-        price: 'Privado',
-        icon: <Scissors/>,
-        linkText:'Olá, vi no site sobre seu trabalho gostaria de mais informações.'
-       
-    },
-
-    {
-        title: "Trança feminina",
-        image: trança1,
-        description: 'trancas femininas com produtos e e equipamentos de qualidade e com um atendimento humanizados e respeitoso',
-        duration: "4h",
-        price: 'Privado',
-        icon: <Scissors/>,
-        linkText:'Olá, vi no site sobre seu trabalho gostaria de mais informações.'
-       
-    },
-
-    {
-        title: "Trança feminina",
-        image: trança1,
+        image: masculina,
         description: 'trancas femininas com produtos e e equipamentos de qualidade e com um atendimento humanizados e respeitoso',
         duration: "4h",
         price: 'Privado',
@@ -171,7 +69,7 @@ const services = [
 
     {
         title: "Trança feminina",
-        image: trança1,
+        image: masculina,
         description: 'trancas femininas com produtos e e equipamentos de qualidade e com um atendimento humanizados e respeitoso',
         duration: "4h",
         price: 'Privado',
@@ -180,11 +78,11 @@ const services = [
        
     },
 
-    
+
     {
         title: "Trança feminina",
-        image: trança1,
-    
+        image: masculina,
+        description: 'trancas femininas com produtos e e equipamentos de qualidade e com um atendimento humanizados e respeitoso',
         duration: "4h",
         price: 'Privado',
         icon: <Scissors/>,
@@ -199,7 +97,7 @@ const services = [
 
 
 
-export function Infantil() {
+export function Maculina() {
 
        const [emblaRef, emblaApi] = useEmblaCarousel({
         loop:false,
@@ -221,12 +119,13 @@ export function Infantil() {
 
 
     return (
-     <section className="bg-black py-16">
+     <section className="bg-black py-16 top-24">
         <div className="container mx-auto px-4">
+          
             
             <div className="relative">
 
-                     <h3 className="font-serif text-3xl text-white mb-12 flex align-text-center justify-center">Tranças Infantil</h3>
+                     <h3 className="font-serif text-3xl text-white mb-12 flex align-text-center justify-center">Tranças Femininas</h3>
 
                 <div className='overflow-hidden' ref={emblaRef}>
                     <div className='flex'>
@@ -291,3 +190,4 @@ export function Infantil() {
     )
  
  }
+
