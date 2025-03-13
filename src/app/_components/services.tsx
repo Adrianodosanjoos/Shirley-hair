@@ -205,6 +205,16 @@ export function Services() {
         }
        })
 
+
+        function scrollPrev(){
+            emblaApi?.scrollPrev();
+        }
+
+        function scrollNext(){
+            emblaApi?.scrollNext();
+        }
+
+
     return (
      <section className="bg-black py-16">
         <div className="container mx-auto px-4">
@@ -251,6 +261,13 @@ export function Services() {
 
                     </div>
                 </div>
+
+                   <button>
+                    <ChevronLeft 
+                     onClick={scrollPrev}
+                    className='w-6 h-6 text-gray-600'
+                    />
+                   </button>
 
             </div>
         </div>
