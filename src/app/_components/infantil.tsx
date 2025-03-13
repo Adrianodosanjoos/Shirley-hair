@@ -1,7 +1,7 @@
 import useEmblaCarousel from 'embla-carousel-react'
 import { ChevronLeft, ChevronRight, Clock, Scissors} from 'lucide-react'
 import { Image, WhatsappLogo } from "@phosphor-icons/react"
-import trança1 from '../../../public/trança infantil5.jpg'
+import trança1 from '../../../public/trança infatil 2.jpg'
 
 
 const services = [
