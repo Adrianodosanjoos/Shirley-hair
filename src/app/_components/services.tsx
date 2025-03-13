@@ -238,8 +238,8 @@ export function Services() {
                                             <span>{item.duration}</span>
                                             </div>
 
-                                            <a className='flex items-center justify-center gap-2' href="http://" target="_blank">
-                                            Entrar em contato <WhatsappLogo/>
+                                            <a className='flex items-center justify-center gap-2 hover:bg-green-500' href="#" target="_blank">
+                                           <WhatsappLogo className="w-4 h-5"/>  Entrar em contato
                                             </a>
                                     </div>
                                           
