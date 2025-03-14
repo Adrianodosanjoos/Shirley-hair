@@ -92,7 +92,7 @@ export function Testimonials() {
 
                 <div className="relative">
 
-                    <h3 className="font-serif text-3xl text-white mb-12 flex align-text-center justify-center">Tranças Masculinas</h3>
+                    <h3 className="font-serif text-3xl text-white mb-12 flex align-text-center justify-center">Testemunhos</h3>
 
                     <div className='overflow-hidden' ref={emblaRef}>
                         <div className='flex'>
