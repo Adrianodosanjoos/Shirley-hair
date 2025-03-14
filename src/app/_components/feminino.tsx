@@ -2,8 +2,8 @@
 
 import useEmblaCarousel from 'embla-carousel-react'
 import { ChevronLeft, ChevronRight, Clock, Scissors} from 'lucide-react'
-import { Image, WhatsappLogo } from "@phosphor-icons/react"
-import { InstagramLogo } from "@phosphor-icons/react"
+import { WhatsappLogo } from "@phosphor-icons/react"
+
 import trança1 from '../../../public/tranca feminina.jpg'
 import trança2 from '../../../public/trança feminina2.jpg'
 import trança3 from '../../../public/trança femina 3.jpg'

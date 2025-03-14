@@ -4,91 +4,66 @@ import useEmblaCarousel from 'embla-carousel-react'
 import { ChevronLeft, ChevronRight, Clock, Scissors} from 'lucide-react'
 import { Image, WhatsappLogo } from "@phosphor-icons/react"
 import { InstagramLogo } from "@phosphor-icons/react"
-import masculina from '../../../public/trança masculina3.jpg'
+import masculina1 from '../../../public/trança masculina.jpg'
+import masculina2 from '../../../public/trança masculina2.jpg'
+import masculina3 from '../../../public/trança masculina3.jpg'
+import masculina4 from '../../../public/trança masculina4.jpg'
+import masculina5 from '../../../public/trança masculina5.jpg'
+
 
 const services = [
     {
-        title: "Trança feminina",
-        image: masculina,
-        description: 'trancas femininas com produtos e e equipamentos de qualidade e com um atendimento humanizados e respeitoso',
-        duration: "4h",
+        title: "Twist",
+        image: masculina1,
+        duration: "4h a 5h",
         price: 'Privado',
         icon: <Scissors/>,
         linkText:'Olá, vi no site sobre seu trabalho gostaria de mais informações.'
        
     },
-
 
     {
-        title: "Trança feminina",
-        image: masculina,
-        description: 'trancas femininas com produtos e e equipamentos de qualidade e com um atendimento humanizados e respeitoso',
-        duration: "4h",
+        title: "Twist",
+        image: masculina2,
+        duration: "4h a 5h",
         price: 'Privado',
         icon: <Scissors/>,
         linkText:'Olá, vi no site sobre seu trabalho gostaria de mais informações.'
        
     },
-
 
     {
-        title: "Trança feminina",
-        image: masculina,
-        description: 'trancas femininas com produtos e e equipamentos de qualidade e com um atendimento humanizados e respeitoso',
-        duration: "4h",
+        title: "Nagô masculina",
+        image: masculina3,
+        duration: "1h30 a 2",
         price: 'Privado',
         icon: <Scissors/>,
         linkText:'Olá, vi no site sobre seu trabalho gostaria de mais informações.'
        
     },
 
+    
+    {
+        title: "Nagô masculina",
+        image: masculina4,
+        duration: "1h30 a 2",
+        price: 'Privado',
+        icon: <Scissors/>,
+        linkText:'Olá, vi no site sobre seu trabalho gostaria de mais informações.'
+       
+    },
 
     {
-        title: "Trança feminina",
-        image: masculina,
-        description: 'trancas femininas com produtos e e equipamentos de qualidade e com um atendimento humanizados e respeitoso',
-        duration: "4h",
+        title: "1",
+        image: masculina4,
+        duration: "1h30 a 2",
         price: 'Privado',
         icon: <Scissors/>,
         linkText:'Olá, vi no site sobre seu trabalho gostaria de mais informações.'
        
     },
 
-
-    {
-        title: "Trança feminina",
-        image: masculina,
-        description: 'trancas femininas com produtos e e equipamentos de qualidade e com um atendimento humanizados e respeitoso',
-        duration: "4h",
-        price: 'Privado',
-        icon: <Scissors/>,
-        linkText:'Olá, vi no site sobre seu trabalho gostaria de mais informações.'
-       
-    },
-
-
-    {
-        title: "Trança feminina",
-        image: masculina,
-        description: 'trancas femininas com produtos e e equipamentos de qualidade e com um atendimento humanizados e respeitoso',
-        duration: "4h",
-        price: 'Privado',
-        icon: <Scissors/>,
-        linkText:'Olá, vi no site sobre seu trabalho gostaria de mais informações.'
-       
-    },
-
-
-    {
-        title: "Trança feminina",
-        image: masculina,
-        description: 'trancas femininas com produtos e e equipamentos de qualidade e com um atendimento humanizados e respeitoso',
-        duration: "4h",
-        price: 'Privado',
-        icon: <Scissors/>,
-        linkText:'Olá, vi no site sobre seu trabalho gostaria de mais informações.'
-       
-    },
+   
 ]
 
 
