@@ -36,7 +36,7 @@ const services = [
     {
         title: "French Braids",
         image: trança2,
-        duration: "7h a 4h",
+        duration: "7h a 9h",
         price: 'Privado',
         icon: <Scissors/>,
         linkText:'Olá, vi no site sobre seu trabalho gostaria de mais informações.'
@@ -47,7 +47,7 @@ const services = [
     {
         title: "French Braids",
         image: trança3,
-        duration: "7h a 4h",
+        duration: "7h a 9h",
         price: 'Privado',
         icon: <Scissors/>,
         linkText:'Olá, vi no site sobre seu trabalho gostaria de mais informações.'

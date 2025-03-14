@@ -35,7 +35,7 @@ const services = [
     {
         title: "Nagô masculina",
         image: masculina3,
-        duration: "1h30 a 2",
+        duration: "1h30 a 2h",
         price: 'Privado',
         icon: <Scissors />,
         linkText: 'Olá, vi no site sobre seu trabalho gostaria de mais informações.'
@@ -46,7 +46,7 @@ const services = [
     {
         title: "Nagô masculina",
         image: masculina4,
-        duration: "1h30 a 2",
+        duration: "1h30 a 2h",
         price: 'Privado',
         icon: <Scissors />,
         linkText: 'Olá, vi no site sobre seu trabalho gostaria de mais informações.'
@@ -55,13 +55,14 @@ const services = [
 
     {
         title: "1",
-        image: masculina4,
-        duration: "1h30 a 2",
+        image: masculina5,
+        duration: "1h30 a 2h",
         price: 'Privado',
         icon: <Scissors />,
         linkText: 'Olá, vi no site sobre seu trabalho gostaria de mais informações.'
 
     },
+
 
 
 ]
