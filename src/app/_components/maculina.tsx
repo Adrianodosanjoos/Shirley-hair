@@ -67,11 +67,6 @@ const services = [
 ]
 
 
-
-
-
-
-
 export function Masculina() {
 
        const [emblaRef, emblaApi] = useEmblaCarousel({
@@ -100,7 +95,7 @@ export function Masculina() {
             
             <div className="relative">
 
-                     <h3 className="font-serif text-3xl text-white mb-12 flex align-text-center justify-center">Tranças Femininas</h3>
+                     <h3 className="font-serif text-3xl text-white mb-12 flex align-text-center justify-center">Tranças Masculinas</h3>
 
                 <div className='overflow-hidden' ref={emblaRef}>
                     <div className='flex'>
