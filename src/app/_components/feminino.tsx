@@ -5,8 +5,8 @@ import { ChevronLeft, ChevronRight, Clock, Scissors} from 'lucide-react'
 import { Image, WhatsappLogo } from "@phosphor-icons/react"
 import { InstagramLogo } from "@phosphor-icons/react"
 import trança1 from '../../../public/tranca feminina.jpg'
-import trança2 from '../../../public/tranca feminina2.jpg'
-import trança3 from '../../../public/tranca feminina 3.jpg'
+import trança2 from '../../../public/trança feminina2.jpg'
+import trança3 from '../../../public/trança femina 3.jpg'
 import trança4 from '../../../public/ponytail.jpg'
 import trança5 from '../../../public/trança femina 4.jpg'
 import trança6 from '../../../public/trança femina 5.jpg'
