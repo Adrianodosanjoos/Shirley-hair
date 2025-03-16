@@ -97,8 +97,6 @@ export function Testimonials() {
                                                       <Image
                                                       src={item.image}
                                                       alt='foto do depoimento'
-                                                      fill
-                                                      sizes='96px'
                                                       className='select-none'
                                                       />
                                                 </div>
