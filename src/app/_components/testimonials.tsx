@@ -2,8 +2,8 @@
 
 import useEmblaCarousel from 'embla-carousel-react'
 import { ChevronLeft, ChevronRight, Clock, Scissors } from 'lucide-react'
-import {WhatsappLogo } from "@phosphor-icons/react"
-import Image  from 'next/image'
+import { WhatsappLogo } from "@phosphor-icons/react"
+import Image from 'next/image'
 import masculina1 from '../../../public/trança masculina.jpg'
 import masculina2 from '../../../public/trança masculina2.jpg'
 import masculina3 from '../../../public/trança masculina3.jpg'
@@ -12,14 +12,14 @@ import masculina5 from '../../../public/trança masculina5.jpg'
 
 
 const testimonials = [
-    {    
+    {
         img: masculina4,
         author: "Nome da cliente",
         image: masculina5,
 
     },
 
-    {    
+    {
         img: masculina4,
         author: "Nome da cliente",
         image: masculina5,
@@ -27,14 +27,14 @@ const testimonials = [
     },
 
 
-    {    
+    {
         img: masculina4,
         author: "Nome da cliente",
         image: masculina5,
 
     },
 
-    {    
+    {
         img: masculina4,
         author: "Nome da cliente",
         image: masculina5,
@@ -48,8 +48,8 @@ const testimonials = [
 export function Testimonials() {
 
     const [emblaRef, emblaApi] = useEmblaCarousel({
-      
-       loop:true
+
+        loop: true
     })
 
 
@@ -77,30 +77,31 @@ export function Testimonials() {
                                 <div key={index} className=' flex-[0_0_100%] min-w-0 px-3'>
                                     <article className='bg-[#1e293b] text-white rounded-2xl p-6 space-y-4 h-full 
                                    flex flex-col '>
-                                        
+
                                         <div className='flex flex-col items-center justify-center text-center space-y-4'>
-                                                <div className='relative w-24 h-24'>
-                                                      <Image
-                                                      src={item.img}
-                                                      alt='foto da pessoa'
-                                                      fill
-                                                      sizes='96px'
-                                                      className='object-cover rounded-full'
-                                                      />
-                                                </div>
+                                            <div className='relative w-24 h-24'>
+                                                <Image
+                                                    src={item.img}
+                                                    alt='foto da pessoa'
+                                                    fill
+                                                    sizes='96px'
+                                                    className='object-cover rounded-full'
+                                                />
+                                            </div>
 
-                                                <div className='md:flex-[0_0_100%/3] '>
-                                                      <Image
-                                                      src={item.image}
-                                                      alt='foto do depoimento'
-                                                      className='select-none'
-                                                      />
-                                                </div>
+                                            <div className='md:max-h-20 md:max-w-20 '>
+                                                <Image
+                                                    src={item.image}
+                                                    alt='foto do depoimento'
+                                                    className='select-none'
+                                                />
+                                            </div>
 
+                                            <div className='border-t border-gray-700 pt-4 flex items-center justify-between'>
                                                 <p className='font-bold font-serif'>{item.author}</p>
-
+                                            </div>
                                         </div>
-                                        
+
                                     </article>
                                 </div>
                             ))}
