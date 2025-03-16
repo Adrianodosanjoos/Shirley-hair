@@ -89,7 +89,7 @@ export function Testimonials() {
                                                 />
                                             </div>
 
-                                            <div className='md:h-96 md:w-96 md:mb-5'>
+                                            <div>
                                                 <Image
                                                     src={item.image}
                                                     alt='foto do depoimento'
