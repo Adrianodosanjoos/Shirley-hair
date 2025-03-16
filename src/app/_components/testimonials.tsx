@@ -89,7 +89,7 @@ export function Testimonials() {
                                                       />
                                                 </div>
 
-                                                <div>
+                                                <div className='md:flex-[0_0_100%/3] '>
                                                       <Image
                                                       src={item.image}
                                                       alt='foto do depoimento'
