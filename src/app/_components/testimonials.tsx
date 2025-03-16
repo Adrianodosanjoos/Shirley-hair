@@ -67,7 +67,7 @@ export function Testimonials() {
 
 
     return (
-        <section className="bg[#191919] py-16">
+        <section className="bg-[#191919] py-16">
             <div className="container mx-auto px-4">
 
 
@@ -93,7 +93,7 @@ export function Testimonials() {
                                                       />
                                                 </div>
 
-                                                <div>
+                                                <div className='w-60 h-60'>
                                                       <Image
                                                       src={item.image}
                                                       alt='foto do depoimento'
