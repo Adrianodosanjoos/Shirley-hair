@@ -98,12 +98,11 @@ export function Testimonials() {
                                             </div>
 
                                         </div>
-                                        <div className='border-t border-gray-700 md:mt-3.5'>
 
-                                        <div className='border-t border-gray-700 md:mt-3.5'>
+                                        <div className='border-t border-gray-700 pt-4'>
                                                 <p className='font-bold font-serif'>{item.author}</p>
                                             </div>
-                                            </div>
+                                            
                                     </article>
                                 </div>
                             ))}
