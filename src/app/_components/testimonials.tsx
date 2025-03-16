@@ -14,7 +14,6 @@ import masculina5 from '../../../public/trança masculina5.jpg'
 const testimonials = [
     {    
         img: masculina4,
-         masculina1,
         author: "Nome da cliente",
         image: masculina5,
 
@@ -22,7 +21,6 @@ const testimonials = [
 
     {    
         img: masculina4,
-         masculina1,
         author: "Nome da cliente",
         image: masculina5,
 
@@ -31,7 +29,6 @@ const testimonials = [
 
     {    
         img: masculina4,
-         masculina1,
         author: "Nome da cliente",
         image: masculina5,
 
@@ -39,7 +36,6 @@ const testimonials = [
 
     {    
         img: masculina4,
-         masculina1,
         author: "Nome da cliente",
         image: masculina5,
 
@@ -100,6 +96,8 @@ export function Testimonials() {
                                                       className='select-none'
                                                       />
                                                 </div>
+
+                                                <p className='font-bold font-serif'>{item.author}</p>
 
                                         </div>
                                         
