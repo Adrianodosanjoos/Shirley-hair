@@ -14,7 +14,7 @@ import trança5 from '../../../public/trança infantil5.jpg'
 
 const services = [
     {
-        title: "1",
+        title: "Nagô infantil",
         image: trança1,
         duration: "4h",
         price: 'Privado',
@@ -54,7 +54,7 @@ const services = [
     },
 
     {
-        title: "1",
+        title: "Ponytail infantil",
         image: trança5,
         duration: "1h a 1h30",
         price: 'Privado',

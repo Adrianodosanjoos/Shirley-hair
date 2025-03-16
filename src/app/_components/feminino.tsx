@@ -8,10 +8,8 @@ import trança1 from '../../../public/tranca feminina.jpg'
 import trança2 from '../../../public/trança feminina2.jpg'
 import trança3 from '../../../public/trança femina 3.jpg'
 import trança4 from '../../../public/ponytail.jpg'
-import trança5 from '../../../public/trança femina 4.jpg'
 import trança6 from '../../../public/trança femina 5.jpg'
 import trança7 from '../../../public/trança femina 6.jpg'
-import trança8 from '../../../public/trança femina 7.jpg'
 import trança9 from '../../../public/trança femina 8.jpg'
 import trança10 from '../../../public/trança femina 9.jpg'
 import trança11 from '../../../public/trança idosa.jpg'
@@ -65,20 +63,11 @@ const services = [
        
     },
 
-    {
-        title: "1",
-        image: trança5,
-        duration: "4h",
-        price: 'Privado',
-        icon: <Scissors/>,
-        linkText:'Olá, vi no site sobre seu trabalho gostaria de mais informações.'
-       
-    },
 
     {
-        title: "2",
+        title: "Ghana Braids",
         image: trança6,
-        duration: "4h",
+        duration: "2h30 a 4h",
         price: 'Privado',
         icon: <Scissors/>,
         linkText:'Olá, vi no site sobre seu trabalho gostaria de mais informações.'
@@ -87,20 +76,9 @@ const services = [
 
 
     {
-        title: "3",
+        title: "Ghana Braids",
         image: trança7,
-        duration: "4h",
-        price: 'Privado',
-        icon: <Scissors/>,
-        linkText:'Olá, vi no site sobre seu trabalho gostaria de mais informações.'
-       
-    },
-
-    
-    {
-        title: "4",
-        image: trança8,
-        duration: "4h",
+        duration: "2h30 a 4h",
         price: 'Privado',
         icon: <Scissors/>,
         linkText:'Olá, vi no site sobre seu trabalho gostaria de mais informações.'
@@ -109,9 +87,9 @@ const services = [
 
 
     {
-        title: "5",
+        title: "Chanel Gipsy Braids",
         image: trança9,
-        duration: "4h",
+        duration: "5h a 7h",
         price: 'Privado',
         icon: <Scissors/>,
         linkText:'Olá, vi no site sobre seu trabalho gostaria de mais informações.'
@@ -119,9 +97,9 @@ const services = [
     },
 
     {
-        title: "6",
+        title: "Ghana Braids",
         image: trança10,
-        duration: "4h",
+        duration: "2h a 4h",
         price: 'Privado',
         icon: <Scissors/>,
         linkText:'Olá, vi no site sobre seu trabalho gostaria de mais informações.'
@@ -129,9 +107,9 @@ const services = [
     },
 
     {
-        title: "7",
+        title: "Entrelace Antes",
         image: trança11,
-        duration: "4h",
+        duration: "4h a 5h",
         price: 'Privado',
         icon: <Scissors/>,
         linkText:'Olá, vi no site sobre seu trabalho gostaria de mais informações.'
@@ -139,9 +117,9 @@ const services = [
     },
 
     {
-        title: "8",
+        title: "Entrelace Depois",
         image: trança12,
-        duration: "4h",
+        duration: "4h a 5h",
         price: 'Privado',
         icon: <Scissors/>,
         linkText:'Olá, vi no site sobre seu trabalho gostaria de mais informações.'
@@ -149,9 +127,9 @@ const services = [
     },
 
     {
-        title: "9",
+        title: "Entrelace",
         image: trança13,
-        duration: "4h",
+        duration: "4h a 5h",
         price: 'Privado',
         icon: <Scissors/>,
         linkText:'Olá, vi no site sobre seu trabalho gostaria de mais informações.'

@@ -9,6 +9,7 @@ import masculina2 from '../../../public/trança masculina2.jpg'
 import masculina3 from '../../../public/trança masculina3.jpg'
 import masculina4 from '../../../public/trança masculina4.jpg'
 import masculina5 from '../../../public/trança masculina5.jpg'
+import masculina6 from '../../../public/trança masculina6.jpg'
 
 
 const services = [
@@ -53,8 +54,9 @@ const services = [
 
     },
 
+
     {
-        title: "1",
+        title: "Nagô masculina",
         image: masculina5,
         duration: "1h30 a 2h",
         price: 'Privado',
@@ -64,7 +66,17 @@ const services = [
     },
 
 
+    {
+        title: "Box Braids masculina",
+        image: masculina6,
+        duration: "4h a 5h",
+        price: 'Privado',
+        icon: <Scissors />,
+        linkText: 'Olá, vi no site sobre seu trabalho gostaria de mais informações.'
 
+    },
+
+    
 ]
 
 
