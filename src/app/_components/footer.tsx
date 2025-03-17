@@ -47,7 +47,7 @@ export function Footer() {
             emblaApi.scrollNext(); // Avança automaticamente
         };
 
-        const interval = setInterval(autoplay, 500); // Intervalo de 3 segundos
+        const interval = setInterval(autoplay, -500); // Intervalo de 3 segundos
         return () => clearInterval(interval); // Limpa o intervalo
     }, [emblaApi])
 
