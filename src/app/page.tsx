@@ -5,6 +5,7 @@ import { Services } from "./_components/feminino";
 import { Infantil } from "./_components/infantil";
 import { Masculina } from "./_components/maculina";
 import { Testimonials } from "./_components/testimonials";
+import { Footer } from "./_components/footer";
 
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
      <Infantil/>
      <Masculina/>
      <Testimonials/>
+     <Footer/>
       <Map/>
     </main>
   )

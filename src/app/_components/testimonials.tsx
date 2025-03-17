@@ -4,9 +4,6 @@ import useEmblaCarousel from 'embla-carousel-react'
 import { ChevronLeft, ChevronRight, Clock, Scissors } from 'lucide-react'
 import { WhatsappLogo } from "@phosphor-icons/react"
 import Image from 'next/image'
-import masculina1 from '../../../public/trança masculina.jpg'
-import masculina2 from '../../../public/trança masculina2.jpg'
-import masculina3 from '../../../public/trança masculina3.jpg'
 import masculina4 from '../../../public/trança masculina4.jpg'
 import masculina5 from '../../../public/trança masculina5.jpg'
 
