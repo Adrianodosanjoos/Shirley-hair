@@ -29,12 +29,7 @@ const brands = [
     { name: "DS Beaty", logo: dsbeaty },
     { name: "Zhang Hair", logo: zhanghair },
     { name: "Esponja Magic", logo: esponjamagic },
-    { name: "Império Black", logo: imperioblack },
-    { name: "The Class", logo: theclass },
-    { name: "Du Chapéu", logo: duchapeu },
-    { name: "DS Beaty", logo: dsbeaty },
-    { name: "Zhang Hair", logo: zhanghair },
-    { name: "Esponja Magic", logo: esponjamagic },
+
     
 ]
 
