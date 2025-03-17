@@ -20,6 +20,7 @@ const brands = [
 ]
 
 export function Footer() {
+    console.log("Embla não está inicializado!");
     const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, align: 'center' })
 
     // Função para rotação automática
