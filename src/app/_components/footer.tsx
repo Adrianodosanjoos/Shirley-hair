@@ -8,7 +8,7 @@ import zhanghair from '../../../public/Logo-Zhang-Hair produto 1.png'
 import dsbeaty from '../../../public/ds beaty produto 4.png'
 import duchapeu from '../../../public/du chapeu hair produto2.png'
 import theclass from '../../../public/the class produto 3.png'
-import imperioblack from '../../../public/ Império Black produto 6.png'
+import imperioblack from '../../../public/blackproduto 6.png'
 
 const brands = [
     { name: "Império Black", logo: imperioblack },
