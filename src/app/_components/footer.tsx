@@ -25,7 +25,7 @@ export function Footer() {
                         <div className='border-b  border-black pb-8'>
                             <h4 className='text-3xl font-semibold mb-8 text-center'>Marcas que trabalhamos</h4>
 
-                                <div  className='flex items-center content-center gap-2'>
+                                <div  className='flex gap-2 md:items-center md:content-center'>
                                     {brands.map((item, index) => (
                                         <div key={index}>
                                     <Image
