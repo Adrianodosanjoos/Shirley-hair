@@ -25,9 +25,9 @@ export function Footer() {
                         <div className='border-b  border-black pb-8'>
                             <h4 className='text-3xl font-semibold mb-8 text-center'>Marcas que trabalhamos</h4>
 
-                                <div>
+                                <div  className='flex'>
                                     {brands.map((item, index) => (
-                                        <div key={index} className='flex'>
+                                        <div key={index}>
                                     <Image
                                      src={item.logo}
                                      alt={item.name}

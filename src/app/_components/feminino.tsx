@@ -15,12 +15,24 @@ import trança10 from '../../../public/trança femina 9.jpg'
 import trança11 from '../../../public/trança idosa.jpg'
 import trança12 from '../../../public/trança idosa2.jpg'
 import trança13 from '../../../public/trança idosa3.jpg'
+import boxBraids from '../../../public/boxBraids.jpg'
 
 
 
 
 
-const services = [
+const services = [ 
+
+    {
+        title: "Entrelace",
+        image: boxBraids,
+        duration: "6h a 9h",
+        price: 'Privado',
+        icon: <Scissors/>,
+        linkText:'Olá, vi no site sobre seu trabalho gostaria de mais informações.'
+       
+    },
+
     {
         title: "Entrelace",
         image: trança1,
@@ -135,6 +147,7 @@ const services = [
         linkText:'Olá, vi no site sobre seu trabalho gostaria de mais informações.'
        
     },
+   
 ]
 
 
