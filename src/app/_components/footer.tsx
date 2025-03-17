@@ -20,19 +20,17 @@ const brands = [
 ]
 
 export function Footer() {
-    console.log("Embla não está inicializado!");
     const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, align: 'center' })
 
-    // Função para rotação automática
     useEffect(() => {
-        if (!emblaApi) return
+        if (!emblaApi) return;
 
         const autoplay = () => {
-            if (emblaApi) emblaApi.scrollNext()
-        }
+            emblaApi.scrollNext(); // Avança automaticamente
+        };
 
-        const interval = setInterval(autoplay, 3000) // Avança a cada 3 segundos
-        return () => clearInterval(interval) // Limpa o intervalo ao desmontar o componente
+        const interval = setInterval(autoplay, 3000); // Intervalo de 3 segundos
+        return () => clearInterval(interval); // Limpa o intervalo
     }, [emblaApi])
 
     return (
