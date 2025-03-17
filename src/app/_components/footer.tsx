@@ -1,6 +1,6 @@
 'use client'
 
-import React from 'react'
+import React, { useEffect } from 'react'
 import useEmblaCarousel from 'embla-carousel-react'
 import Image from 'next/image'
 import esponjamagic from '../../../public/esponja magic fundo branco produto5.jpg'
@@ -20,7 +20,19 @@ const brands = [
 ]
 
 export function Footer() {
-    const [emblaRef] = useEmblaCarousel({ loop: true, align: 'center' })
+    const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, align: 'center' })
+
+    // Função para rotação automática
+    useEffect(() => {
+        if (!emblaApi) return
+
+        const autoplay = () => {
+            if (emblaApi) emblaApi.scrollNext()
+        }
+
+        const interval = setInterval(autoplay, 3000) // Avança a cada 3 segundos
+        return () => clearInterval(interval) // Limpa o intervalo ao desmontar o componente
+    }, [emblaApi])
 
     return (
         <section className='bg-[#373739] py-16 text-white'>
