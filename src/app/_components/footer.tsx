@@ -37,12 +37,12 @@ export function Footer() {
     return (
         <section className='bg-[#373739] py-16 text-white'>
             <div className='container mx-auto px-4'>
-                <div className='border-b border-black pb-18'>
+                <div className='border-b border-black pb-8'>
                     <h4 className='text-3xl font-semibold mb-8 text-center'>Marcas que trabalhamos</h4>
                     <div className='carousel-container' style={{ overflow: 'hidden', position: 'relative' }}>
                         <div className='carousel-track' style={{
                             display: 'flex',
-                            animation: 'scroll 120s linear infinite',
+                            animation: 'scroll 100s linear infinite',
                             width: 'max-content',
                         }}>
                             {brands.concat(brands).map((item, index) => ( // Repete as marcas para loop contínuo
@@ -51,12 +51,6 @@ export function Footer() {
                                         src={item.logo}
                                         alt={item.name}
                                         height={50}
-                                        width={100}
-                                        quality={100}
-                                        style={{
-                                            width: "auto",
-                                            height: "auto",
-                                        }}
                                         className="object-contain"
                                     />
                                 </div>
