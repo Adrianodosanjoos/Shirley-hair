@@ -37,7 +37,7 @@ export function Footer() {
     return (
         <section className='bg-[#373739] py-16 text-white'>
             <div className='container mx-auto px-4'>
-                <div className='border-b border-black pb-1'>
+                <div className='border-b border-black pb-15'>
                     <h4 className='text-3xl font-semibold mb-8 text-center'>Marcas que trabalhamos</h4>
                     <div className='carousel-container' style={{ overflow: 'hidden', position: 'relative' }}>
                         <div className='carousel-track' style={{
