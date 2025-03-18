@@ -55,7 +55,8 @@ export function Hero() {
                             onde a criatividade e a autoexpressão se encontram.
                         </p>
 
-                        <a href="#" target="_blank"
+                        <a href={`https://wa.me/5511940556067?text=
+                            Óla Shirlei vim pelo site e gostaria de saber mais sobre o seu trabalho`}  target="_blank"
                             className="bg-green-500 px-4 py-2 rounded-md font-semibold flex justify-center
                             hover:scale-110 duration-300 items-center w-fit gap-2">
                             <WhatsappLogo className='w-5 h-5' />
