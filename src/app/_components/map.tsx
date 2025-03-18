@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <div>
       <h1>Mapa do Google</h1>
-      <LoadScript googleMapsApiKey="YOUR_API_KEY">
+      <LoadScript googleMapsApiKey="AIzaSyCuws2A5d9BaGKAORsvzMH_lCx7UzanR4Y">
         <GoogleMap mapContainerStyle={mapContainerStyle} center={center} zoom={15}>
           <Marker position={center} />
         </GoogleMap>
