@@ -2,7 +2,7 @@
 
 import useEmblaCarousel from 'embla-carousel-react'
 import { ChevronLeft, ChevronRight, Clock, Scissors } from 'lucide-react'
-import { Image, WhatsappLogo } from "@phosphor-icons/react"
+import { WhatsappLogo } from "@phosphor-icons/react"
 import masculina1 from '../../../public/trança masculina.jpg'
 import masculina2 from '../../../public/trança masculina2.jpg'
 import masculina3 from '../../../public/trança masculina3.jpg'
