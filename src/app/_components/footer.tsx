@@ -42,7 +42,7 @@ export function Footer() {
                     <div className='carousel-container' style={{ overflow: 'hidden', position: 'relative' }}>
                         <div className='carousel-track' style={{
                             display: 'flex',
-                            animation: 'scroll 100s linear infinite',
+                            animation: 'scroll 120s linear infinite',
                             width: 'max-content',
                         }}>
                             {brands.concat(brands).map((item, index) => ( // Repete as marcas para loop contínuo
