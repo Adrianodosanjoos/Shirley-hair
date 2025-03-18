@@ -51,6 +51,12 @@ export function Footer() {
                                         src={item.logo}
                                         alt={item.name}
                                         height={50}
+                                        width={100}
+                                        quality={100}
+                                        style={{
+                                            width: "auto",
+                                            height: "auto",
+                                        }}
                                         className="object-contain"
                                     />
                                 </div>
