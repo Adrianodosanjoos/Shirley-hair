@@ -10,9 +10,9 @@ export function Low() {
             <div className="bg-black text-white font-serif py-16">
 
             
-                <h2 className="text-3xl lg:text-4xl font-serif flex align-text-center justify-center gap-2">Contatos</h2>
+                <h2 className="text-3xl lg:text-4xl font-serif flex align-text-center justify-center space-y-6">Contatos</h2>
 
-                <div className=" flex align-text-center justify-center gap-2">
+                <div className=" flex align-text-center justify-center gap-2 ">
                 <a href="https://www.instagram.com/shirleibraids/" target="_blank"
                     className="bg-[#833AB4] px-4 py-2 rounded-md font-semibold flex justify-center
         hover:scale-110 duration-300 items-center w-fit gap-2">
