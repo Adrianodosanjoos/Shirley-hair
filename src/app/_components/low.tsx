@@ -4,10 +4,10 @@ import { InstagramLogo } from "@phosphor-icons/react/dist/ssr"
 export function Low() {
 
     return (
+     <div>
+        
 
-        <div className="flex">
-
-            <div className="bg-black text-white font-serif">
+            <div className="bg-black text-white font-serif py-16">
 
                 <h2 className="text-3xl lg:text-4xl font-serif flex align-text-center justify-center">Contatos</h2>
                 <a href="https://www.instagram.com/shirleibraids/" target="_blank"
@@ -23,11 +23,17 @@ export function Low() {
 
             </div>
 
-            <div>
+
+            <div className="bg-[#373739] py-3 text-white' font-serif ">
+
+                <h1>Todos os direito autorais: <b>Adriano dos Anjos</b></h1>
 
             </div>
 
-        </div>
+            
+            </div>
+          
+        
     )
 
 };
