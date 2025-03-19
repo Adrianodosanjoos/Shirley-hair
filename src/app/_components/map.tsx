@@ -23,13 +23,13 @@ export function Map() {
 
   return (
     <div className="bg-black py-16 text-white">
-      <h1 className="flex align-text-center text-xl lg:text-4xl font-serif mb-2">
+      <h1 className="flex align-text-center justify-center text-xl lg:text-4xl font-serif mb-4">
         Onde estamos localizados
       </h1>
 
       <LoadScript 
         googleMapsApiKey="AIzaSyDekM5cIp-ZYlp37KCgciK6U8KWHmodovQ" 
-        libraries={["places"]}
+        //libraries={["places"]}
       >
         <GoogleMap 
           mapContainerStyle={mapContainerStyle} 
