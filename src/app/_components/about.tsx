@@ -71,12 +71,12 @@ export function About() {
 
                             <li className="flex items-center gap-2">
                                 <Check className="text-red-500" />
-                                Trancista Proficional há mais de 20 anos
+                                Trancista Profissional há mais de 20 anos
                             </li>
 
                             <li className="flex items-center gap-2">
                                 <Check className="text-red-500" />
-                                Curso de transita para iniciante
+                                Curso de trancista para iniciante
                             </li>
 
                             <li className="flex items-center gap-2">

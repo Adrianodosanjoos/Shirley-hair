@@ -10,8 +10,10 @@ export  function Map() {
 
   // Coordenadas aproximadas da localização do link
   const center = {
-    lat: 38.7169, // Latitude de exemplo (ajuste conforme necessário)
-    lng: -9.1399, // Longitude de exemplo (ajuste conforme necessário)
+    lat: -23.557766394871813, // Latitude de exemplo (ajuste conforme necessário)
+    lng: -46.291849641248 // Longitude de exemplo (ajuste conforme necessário)
+
+     
   };
 
   return (
