@@ -9,12 +9,15 @@ export function Low() {
 
             <div className="bg-black text-white font-serif py-16">
 
-            <div className="flex">
+            
                 <h2 className="text-3xl lg:text-4xl font-serif flex align-text-center justify-center">Contatos</h2>
+
+                <div className="flex">
                 <a href="https://www.instagram.com/shirleibraids/" target="_blank"
                     className="bg-[#833AB4] px-4 py-2 rounded-md font-semibold flex justify-center
         hover:scale-110 duration-300 items-center w-fit gap-2">
-                    <InstagramLogo className='w-5 h-5' /></a><p> @shirleibraids</p>
+                    <InstagramLogo className='w-5 h-5' /></a>
+                    <p className="px-4 py-2"> @shirleibraids</p>
                     </div>
 
                 <a href={`https://wa.me/5511940556067?text=
