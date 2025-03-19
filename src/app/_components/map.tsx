@@ -25,8 +25,8 @@ export  function Map() {
 
   return (
     <div>
-      <h1>Mapa do Google</h1>
-      <LoadScript googleMapsApiKey="AIzaSyCuws2A5d9BaGKAORsvzMH_lCx7UzanR4Y">
+      <h1 className='flex items-center text-3xl lg:text-4xl font-serif'>Onde estamos localizado</h1>
+      <LoadScript googleMapsApiKey="AIzaSyDekM5cIp-ZYlp37KCgciK6U8KWHmodovQ">
         <GoogleMap mapContainerStyle={mapContainerStyle} center={center} zoom={15}
            onClick={handleMapClick} // Adicionado evento de clique no mapa
 >
