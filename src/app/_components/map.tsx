@@ -28,7 +28,7 @@ export function Map() {
       </h1>
 
       <LoadScript 
-        googleMapsApiKey="SUA_CHAVE_AQUI" 
+        googleMapsApiKey="AIzaSyDekM5cIp-ZYlp37KCgciK6U8KWHmodovQ" 
         libraries={["places"]}
       >
         <GoogleMap 
