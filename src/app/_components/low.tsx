@@ -10,7 +10,7 @@ export function Low() {
             <div className="bg-black text-white font-serif py-16">
 
             
-                <h2 className="text-3xl lg:text-4xl font-serif flex align-text-center justify-center">Contatos</h2>
+                <h2 className="text-3xl lg:text-4xl font-serif flex align-text-center justify-center gap-2">Contatos</h2>
 
                 <div className=" flex align-text-center justify-center gap-2">
                 <a href="https://www.instagram.com/shirleibraids/" target="_blank"
@@ -30,7 +30,7 @@ export function Low() {
                     </div>
 
 
-                <p className="text-15 lg:text-2xl font-bold flex align-text-center justify-center">R: José Cardoso Xavier, 452 Jd. Cacique-Suzano | SP</p>
+                <p className=" lg:text-2xl font-bold flex align-text-center justify-center">R: José Cardoso Xavier, 452 Jd. Cacique-Suzano | SP</p>
 
             </div>
 
