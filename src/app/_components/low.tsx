@@ -9,11 +9,14 @@ export function Low() {
 
             <div className="bg-black text-white font-serif py-16">
 
+            <div className="flex">
                 <h2 className="text-3xl lg:text-4xl font-serif flex align-text-center justify-center">Contatos</h2>
                 <a href="https://www.instagram.com/shirleibraids/" target="_blank"
                     className="bg-[#833AB4] px-4 py-2 rounded-md font-semibold flex justify-center
         hover:scale-110 duration-300 items-center w-fit gap-2">
-                    <InstagramLogo className='w-5 h-5' /></a><p>Instagran: @shirleibraids</p>
+                    <InstagramLogo className='w-5 h-5' /></a><p> @shirleibraids</p>
+                    </div>
+
                 <a href={`https://wa.me/5511940556067?text=
                             Óla Shirlei vim pelo site e gostaria de saber mais sobre o seu trabalho`} target="_blank"
                     className="bg-green-500 px-4 py-2 rounded-md font-semibold flex justify-center
@@ -24,7 +27,7 @@ export function Low() {
             </div>
 
 
-            <div className="bg-[#373739] py-3 text-white' font-serif ">
+            <div className="bg-[#373739] py-3 flex align-text-center text-white font-serif ">
 
                 <h1>Todos os direito autorais: <b>Adriano dos Anjos</b></h1>
 
