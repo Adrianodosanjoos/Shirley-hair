@@ -12,21 +12,21 @@ export function Low() {
             
                 <h2 className="text-3xl lg:text-4xl font-serif flex align-text-center justify-center">Contatos</h2>
 
-                <div className="flex">
+                <div className=" flex align-text-center justify-center">
                 <a href="https://www.instagram.com/shirleibraids/" target="_blank"
                     className="bg-[#833AB4] px-4 py-2 rounded-md font-semibold flex justify-center
         hover:scale-110 duration-300 items-center w-fit gap-2">
                     <InstagramLogo className='w-5 h-5' /></a>
-                    <p className="px-8 py-4"> @shirleibraids</p>
+                    <p className="text-1xl"> @shirleibraids</p>
                     </div>
                  
-                    <div className="flex">
+                    <div className="flex align-text-center justify-center">
                 <a href={`https://wa.me/5511940556067?text=
                             Óla Shirlei vim pelo site e gostaria de saber mais sobre o seu trabalho`} target="_blank"
                     className="bg-green-500 px-4 py-2 rounded-md font-semibold flex justify-center
         hover:scale-110 duration-300 items-center w-fit gap-2">
                     <WhatsappLogo className='w-5 h-5' /> </a> 
-                    <p className="px-8 py-4">(11) 94055-6067</p>
+                    <p className="text-1xl">(11) 94055-6067</p>
                     </div>
 
 
