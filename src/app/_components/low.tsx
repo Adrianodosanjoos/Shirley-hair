@@ -20,7 +20,7 @@ export function Low() {
                     <p className="text-2xl"> @shirleibraids</p>
                     </div>
                  
-                    <div className="flex align-text-center justify-center gap">
+                    <div className="flex align-text-center justify-center gap-2">
                 <a href={`https://wa.me/5511940556067?text=
                             Óla Shirlei vim pelo site e gostaria de saber mais sobre o seu trabalho`} target="_blank"
                     className="bg-green-500 px-4 py-2 rounded-md font-semibold flex justify-center
