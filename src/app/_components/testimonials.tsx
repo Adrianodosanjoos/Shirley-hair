@@ -68,8 +68,8 @@ export function Testimonials() {
 
 
     return (
-        <section className="bg-black py-16">
-            <div className="container mx-auto px-4">
+        <section className="bg-black py-8">
+            <div className="container mx-auto px-2">
 
 
                 <div className="relative max-w-2xl mx-auto">
