@@ -115,8 +115,8 @@ export function Testimonials() {
                         </div>
                     </div>
 
-                    <button className='bg-white flex items-center justify-center rounded-full shadow-lg w-10 h-13 absolute left-3 
-                   -translate-y-1/2 -translate-x-1/2 top-1/2 z-10 cursor-pointer'
+                    <button className='bg-white flex items-center justify-center rounded-full shadow-lg w-10 h-10 absolute left-3 
+                   -translate-y-1/2 -translate-x-1/2 top-1 z-10 cursor-pointer'
                         onClick={scrollPrev}
                     >
                         <ChevronLeft
@@ -124,8 +124,8 @@ export function Testimonials() {
                         />
                     </button>
 
-                    <button className='bg-white  flex items-center justify-center rounded-full shadow-lg w-10 h-20 absolute -right-6 
-                   -translate-y-1/2 -translate-x-1/2 top-1/2 z-10 cursor-pointer'
+                    <button className='bg-white  flex items-center justify-center rounded-full shadow-lg w-10 h-10 absolute -right-6 
+                   -translate-y-1/2 -translate-x-1/2 top-1 z-10 cursor-pointer'
                         onClick={scrollNext}
                     >
                         <ChevronRight
