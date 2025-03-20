@@ -99,7 +99,7 @@ export function Testimonials() {
                                                     src={item.image}
                                                     alt='foto do depoimento'
                                                     quality={100}
-                                                    className='select-none container h-'
+                                                    className='select-none container h-64'
                                                 />
                                             </div>
 
