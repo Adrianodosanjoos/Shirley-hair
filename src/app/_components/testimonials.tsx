@@ -79,8 +79,8 @@ export function Testimonials() {
                     <div className='overflow-hidden' ref={emblaRef}>
                         <div className='flex'>
                             {testimonials.map((item, index) => (
-                                <div key={index} className=' flex-[0_0_100%] md:flex-[0_0_30%] min-w-0 px-3 md-flex md-items-center md-justify-center'>
-                                    <article className='bg-[#1e293b] text-white rounded-2xl p-6 space-y-4 
+                                <div key={index} className=' flex-[0_0_100%] min-w-0 px-3 md-flex md-items-center md-justify-center'>
+                                    <article className='bg-[#1e293b] text-white rounded-2xl p-6 space-y-4 md:space-y-2 md:p-3 md:rounded-1xl
                                    flex flex-col'>
 
                                         <div className='flex flex-col items-center justify-center text-center space-y-4 h-full'>
