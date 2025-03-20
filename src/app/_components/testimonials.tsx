@@ -39,7 +39,12 @@ const testimonials = [
 
     },
 
-    
+    {
+        img: dayane,
+        author: "Dayane",
+        image: dayane1,
+
+    },
 
 
 ]
@@ -84,7 +89,8 @@ export function Testimonials() {
                                                     src={item.img}
                                                     alt='foto da pessoa'
                                                     fill
-                                                    className='relative rounded-full'
+                                                    
+                                                    className='relative rounded-full max-w-24 max-h-24'
                                                 />
                                             </div>
 
