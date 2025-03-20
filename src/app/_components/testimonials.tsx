@@ -1,40 +1,48 @@
 'use client'
 
 import useEmblaCarousel from 'embla-carousel-react'
-import { ChevronLeft, ChevronRight, Clock, Scissors } from 'lucide-react'
-import { WhatsappLogo } from "@phosphor-icons/react"
+import { ChevronLeft, ChevronRight,} from 'lucide-react'
+
 import Image from 'next/image'
-import masculina4 from '../../../public/trança masculina4.jpg'
-import masculina5 from '../../../public/trança masculina5.jpg'
+import carla from '../../../public/carla.png'
+import carla1 from '../../../public/carla1.jpg'
+import bah from '../../../public/bah.png'
+import bahtestemunho from '../../../public/bah1.jpg'
+import chrisna from '../../../public/chrisna.png'
+import chrisna1 from '../../../public/chrisna 1.jpg'
+import dayane from '../../../public/dayane.png'
+import dayane1 from '../../../public/dayane1.jpg'
+
+
 
 
 const testimonials = [
     {
-        img: masculina4,
-        author: "Nome da cliente",
-        image: masculina5,
+        img: carla,
+        author: "Carla",
+        image: carla1,
 
     },
 
     {
-        img: masculina4,
-        author: "Nome da cliente",
-        image: masculina5,
+        img: bah,
+        author: "Barbara",
+        image: bahtestemunho,
 
     },
 
 
     {
-        img: masculina4,
-        author: "Nome da cliente",
-        image: masculina5,
+        img: chrisna,
+        author: "Cristina",
+        image: chrisna1,
 
     },
 
     {
-        img: masculina4,
-        author: "Nome da cliente",
-        image: masculina5,
+        img: dayane,
+        author: "Dayane",
+        image: dayane1,
 
     },
 
