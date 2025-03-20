@@ -98,7 +98,8 @@ export function Testimonials() {
                                                 <Image
                                                     src={item.image}
                                                     alt='foto do depoimento'
-                                                    className='select-none w-94 h-94'
+                                                    quality={100}
+                                                    className='select-none relative w-94 h-94'
                                                 />
                                             </div>
 
@@ -116,7 +117,7 @@ export function Testimonials() {
                     </div>
 
                     <button className='bg-white flex items-center justify-center rounded-full shadow-lg w-10 h-10 absolute left-3 
-                   -translate-y-1/2 -translate-x-1/2 top-1/3 z-10 cursor-pointer'
+                   -translate-y-1/2 -translate-x-1/2 top-1/2 z-10 cursor-pointer'
                         onClick={scrollPrev}
                     >
                         <ChevronLeft
@@ -125,7 +126,7 @@ export function Testimonials() {
                     </button>
 
                     <button className='bg-white  flex items-center justify-center rounded-full shadow-lg w-10 h-10 absolute -right-6 
-                   -translate-y-1/2 -translate-x-1/2 top-1/3 z-10 cursor-pointer'
+                   -translate-y-1/2 -translate-x-1/2 top-1/2 z-10 cursor-pointer'
                         onClick={scrollNext}
                     >
                         <ChevronRight
