@@ -83,13 +83,13 @@ export function Testimonials() {
                                     <article className='bg-[#1e293b] text-white rounded-2xl p-6 space-y-1 h-full 
                                    flex flex-col '>
 
-                                        <div className='flex flex-col items-center justify-center text-center space-y-4'>
+                                        <div className='flex flex-col items-center justify-center text-center space-y-1'>
                                             <div className='relative w-24 h-24'>
                                                 <Image
                                                     src={item.img}
                                                     alt='foto da pessoa'
                                                     fill
-                                                    sizes='96px'
+                                                    sizes='48px'
                                                     className='object-container rounded-full'
                                                 />
                                             </div>
