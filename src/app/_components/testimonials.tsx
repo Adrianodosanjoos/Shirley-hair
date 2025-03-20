@@ -69,7 +69,7 @@ export function Testimonials() {
 
     return (
         <section className="bg-black">
-            <div className="container">
+            <div className="container  mx-auto px-4">
 
 
                 <div className="relative ">
