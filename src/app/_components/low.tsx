@@ -30,7 +30,7 @@ export function Low() {
                     </div>
 
 
-                <p className="sm:text-1 md:text-2xl font-bold flex align-text-center justify-center">R: José Cardoso Xavier, 452 Jd. Cacique-Suzano | SP</p>
+                <p className="text-xs md:text-2xl font-bold flex align-text-center justify-center">R: José Cardoso Xavier, 452 Jd. Cacique-Suzano | SP</p>
 
             </div>
 
