@@ -89,7 +89,6 @@ export function Testimonials() {
                                                     src={item.img}
                                                     alt='foto da pessoa'
                                                     fill
-                                                    sizes='96px'
                                                     className='object-cover rounded-full'
                                                 />
                                             </div>
