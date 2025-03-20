@@ -84,13 +84,13 @@ export function Testimonials() {
                                    flex flex-col '>
 
                                         <div className='flex flex-col items-center justify-center text-center space-y-4 h-full'>
-                                            <div className='relative w-24 h-24'>
+                                            <div className='relative w-4 h-4'>
                                                 <Image
                                                     src={item.img}
                                                     alt='foto da pessoa'
                                                     fill
                                                     
-                                                    className='relative rounded-full max-w-4 max-h-4'
+                                                    className='relative rounded-full max-w-1 max-h-1'
                                                 />
                                             </div>
 
