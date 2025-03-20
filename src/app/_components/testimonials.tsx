@@ -9,7 +9,7 @@ import carla1 from '../../../public/carla1.jpg'
 import bah from '../../../public/bah.png'
 import bahtestemunho from '../../../public/bah1.jpg'
 import chrisna from '../../../public/chrisna.png'
-import chrisna1 from '../../../public/chrisna 1.jpg'
+import chrisna1 from '../../../public/chrisna1.png'
 import dayane from '../../../public/dayane.png'
 import dayane1 from '../../../public/dayane1.jpg'
 
@@ -68,29 +68,29 @@ export function Testimonials() {
 
 
     return (
-        <section className="bg-black py-8">
-            <div className="container mx-auto px-2">
+        <section className="bg-black py-16">
+            <div className="container mx-auto px-4">
 
 
-                <div className="relative max-w-1xl mx-auto">
+                <div className="relative max-w-2xl mx-auto">
 
                     <h3 className="font-serif text-4xl text-white mb-12 flex align-text-center justify-center">Depoimentos</h3>
 
                     <div className='overflow-hidden' ref={emblaRef}>
                         <div className='flex'>
                             {testimonials.map((item, index) => (
-                                <div key={index} className=' flex-[0_0_100%] min-w-0 px-1'>
-                                    <article className='bg-[#1e293b] text-white rounded-2xl p-6 space-y-1 h-full 
+                                <div key={index} className=' flex-[0_0_100%] min-w-0 px-3'>
+                                    <article className='bg-[#1e293b] text-white rounded-2xl p-6 space-y-4 h-full 
                                    flex flex-col '>
 
-                                        <div className='flex flex-col items-center justify-center text-center space-y-1'>
+                                        <div className='flex flex-col items-center justify-center text-center space-y-4'>
                                             <div className='relative w-24 h-24'>
                                                 <Image
                                                     src={item.img}
                                                     alt='foto da pessoa'
                                                     fill
-                                                    sizes='48px'
-                                                    className='object-container rounded-full'
+                                                    sizes='96px'
+                                                    className='object-cover rounded-full'
                                                 />
                                             </div>
 
