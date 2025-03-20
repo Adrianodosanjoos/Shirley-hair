@@ -72,7 +72,7 @@ export function Testimonials() {
             <div className="container mx-auto px-4">
 
 
-                <div className="relative max-w-2xl mx-auto">
+                <div className="relative mx-auto">
 
                     <h3 className="font-serif text-4xl text-white mb-12 flex align-text-center justify-center">Depoimentos</h3>
 
