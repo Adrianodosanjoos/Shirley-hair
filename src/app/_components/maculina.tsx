@@ -101,7 +101,7 @@ export function Masculina() {
 
 
     return (
-        <section className="bg-black py-16 max-h-8">
+        <section className="bg-black py-16">
             <div className="container mx-auto px-4">
 
 
@@ -149,7 +149,7 @@ export function Masculina() {
                     </div>
 
                     <button className='bg-white flex items-center justify-center rounded-full shadow-lg w-10 h-10 absolute left-3 
-                   -translate-y-1/2 -translate-x-1/2 top-1/1 z-10 cursor-pointer'
+                   -translate-y-1/2 -translate-x-1/2 top-1/2 z-10 cursor-pointer'
                         onClick={scrollPrev}
                     >
                         <ChevronLeft
@@ -158,7 +158,7 @@ export function Masculina() {
                     </button>
 
                     <button className='bg-white  flex items-center justify-center rounded-full shadow-lg w-10 h-10 absolute -right-6 
-                   -translate-y-1/2 -translate-x-1/2 top-1/1 z-10 cursor-pointer'
+                   -translate-y-1/2 -translate-x-1/2 top-1/2 z-10 cursor-pointer'
                         onClick={scrollNext}
                     >
                         <ChevronRight
