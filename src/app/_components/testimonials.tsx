@@ -84,7 +84,7 @@ export function Testimonials() {
                                    flex flex-col '>
 
                                         <div className='flex flex-col items-center justify-center text-center space-y-4 h-full'>
-                                            <div className='relative w-4 h-4'>
+                                            <div className='relative w-24 h-24'>
                                                 <Image
                                                     src={item.img}
                                                     alt='foto da pessoa'
@@ -94,7 +94,7 @@ export function Testimonials() {
                                                 />
                                             </div>
 
-                                            <div>
+                                            <div className='relative w-24 h-24'>
                                                 <Image
                                                     src={item.image}
                                                     alt='foto do depoimento'
