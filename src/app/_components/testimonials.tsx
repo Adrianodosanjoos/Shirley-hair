@@ -94,11 +94,11 @@ export function Testimonials() {
                                                 />
                                             </div>
 
-                                            <div className=' w-94 h-94'>
+                                            <div>
                                                 <Image
                                                     src={item.image}
                                                     alt='foto do depoimento'
-                                                    className='select-none'
+                                                    className='select-none w-94 h-94'
                                                 />
                                             </div>
 
