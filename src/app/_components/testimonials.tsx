@@ -90,7 +90,7 @@ export function Testimonials() {
                                                     alt='foto da pessoa'
                                                     fill
                                                     
-                                                    className='relative rounded-full max-w-24 max-h-24'
+                                                    className='relative rounded-full max-w-4 max-h-4'
                                                 />
                                             </div>
 
