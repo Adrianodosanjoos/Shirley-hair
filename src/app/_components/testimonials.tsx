@@ -9,7 +9,7 @@ import carla1 from '../../../public/carla1.jpg'
 import bah from '../../../public/bah.png'
 import bahtestemunho from '../../../public/bah1.jpg'
 import chrisna from '../../../public/chrisna.png'
-import chrisna1 from '../../../public/chrisna1.png'
+import chrisna1 from '../../../public/chrisna 1.jpg'
 import dayane from '../../../public/dayane.png'
 import dayane1 from '../../../public/dayane1.jpg'
 
