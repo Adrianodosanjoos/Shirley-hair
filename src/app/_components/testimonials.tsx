@@ -74,7 +74,7 @@ export function Testimonials() {
 
                 <div className="relative ">
 
-                    <h3 className="font-serif text-4xl text-white mb-12 flex align-text-center justify-center">Depoimentos</h3>
+                    <h3 className="font-serif text-3xl text-white mb-12 flex align-text-center justify-center">Depoimentos</h3>
 
                     <div className='overflow-hidden' ref={emblaRef}>
                         <div className='flex'>
@@ -83,7 +83,7 @@ export function Testimonials() {
                                     <article className='bg-[#1e293b] text-white rounded-2xl p-6 space-y-4 
                                    flex flex-col '>
 
-                                        <div className='flex flex-col items-center justify-center text-center space-y-4'>
+                                        <div className='flex flex-col items-center justify-center text-center space-y-4 h-full'>
                                             <div className='relative w-24 h-24'>
                                                 <Image
                                                     src={item.img}
