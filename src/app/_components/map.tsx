@@ -23,7 +23,7 @@ export function Map() {
 
   return (
     <div className="bg-black py-16 text-white">
-      <h1 className="font-serif text-3xl mb-12 flex align-text-center justify-center">
+      <h1 className="font-serif text-2xl mb-12 flex align-text-center justify-center">
         Onde estamos localizados
       </h1>
 
