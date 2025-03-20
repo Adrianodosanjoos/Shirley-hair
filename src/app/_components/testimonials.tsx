@@ -90,11 +90,11 @@ export function Testimonials() {
                                                     alt='foto da pessoa'
                                                     fill
                                                     
-                                                    className='relative rounded-full max-w-1 max-h-1'
+                                                    className='relative rounded-full'
                                                 />
                                             </div>
 
-                                            <div className='relative w-24 h-24'>
+                                            <div className=' w-94 h-94'>
                                                 <Image
                                                     src={item.image}
                                                     alt='foto do depoimento'
