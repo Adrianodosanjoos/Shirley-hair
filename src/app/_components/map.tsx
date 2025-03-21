@@ -36,7 +36,7 @@ export function Map() {
           center={center} 
           zoom={15} 
           onClick={handleMapClick}
-           data-aos="fade-up-left"
+          
         >
           <Marker position={center} />
         </GoogleMap>

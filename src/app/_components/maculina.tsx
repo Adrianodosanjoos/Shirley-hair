@@ -109,8 +109,8 @@ export function Masculina() {
 
                     <h3 className="font-serif text-3xl text-white mb-12 flex align-text-center justify-center"  data-aos="fade-up-right">Tranças Masculinas</h3>
 
-                    <div className='overflow-hidden' ref={emblaRef}>
-                        <div className='flex'  data-aos="fade-up-left">
+                    <div className='overflow-hidden' ref={emblaRef}  data-aos="fade-up-left">
+                        <div className='flex'>
                             {services.map((item, index) => (
                                 <div key={index} className=' flex-[0_0_100%] min-w-0 md:flex-[0_0_calc(100%/3)] px-3'>
                                     <article className='bg-[#1e293b] text-white rounded-2xl p-6 space-y-4 h-full 
