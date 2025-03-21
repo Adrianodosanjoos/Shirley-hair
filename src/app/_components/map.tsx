@@ -23,7 +23,7 @@ export function Map() {
 
   return (
     <div className="bg-black py-16 text-white">
-      <h1 className="font-serif text-2xl md:text-3xl mb-12 flex align-text-center justify-center">
+      <h1 className="font-serif text-2xl md:text-3xl mb-12 flex align-text-center justify-center"  data-aos="fade-up-right">
         Onde estamos localizados
       </h1>
 
@@ -36,6 +36,7 @@ export function Map() {
           center={center} 
           zoom={15} 
           onClick={handleMapClick}
+           data-aos="fade-up-left"
         >
           <Marker position={center} />
         </GoogleMap>

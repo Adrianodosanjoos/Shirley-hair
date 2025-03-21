@@ -74,9 +74,9 @@ export function Testimonials() {
 
                 <div className="relative ">
 
-                    <h3 className="font-serif text-3xl text-white mb-12 flex align-text-center justify-center">Depoimentos</h3>
+                    <h3 className="font-serif text-3xl text-white mb-12 flex align-text-center justify-center"  data-aos="fade-up-right">Depoimentos</h3>
 
-                    <div className='overflow-hidden' ref={emblaRef}>
+                    <div className='overflow-hidden' ref={emblaRef}  data-aos="fade-up-left">
                         <div className='flex'>
                             {testimonials.map((item, index) => (
                                 <div key={index} className=' flex-[0_0_100%] min-w-0 px-3 md-flex md-items-center md-justify-center'>
