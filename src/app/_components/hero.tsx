@@ -40,14 +40,14 @@ export function Hero() {
                 <article className='grid grid-cols-1 lg:grid-cols-2 gap-8 relative'>
 
 
-                    <div className='space-y-6'>
+                    <div className='space-y-6'data-aos="fade-up-right">
                         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold font-serif flex align-text-center justify-center">
                             Shirlei Nátali
                         </h1>
-                        <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold font-serif flex align-text-center justify-center">
+                        <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold font-serif flex align-text-center justify-center" data-aos="fade-up-right">
                             BraidsDesigner
                         </h2>
-                        <p className="lg:text-lg">
+                        <p className="lg:text-lg" data-aos="fade-up-right">
                             <b className="text-white">Bem-vindo à Shirlei Braids!</b>
                             <br />  Somos uma empresa dedicada à arte de tranças e penteados,
                             localizada no coração da comunidade. Com uma paixão profunda
