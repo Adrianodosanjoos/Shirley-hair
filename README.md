@@ -1,3 +1,13 @@
+# Shirlei Hair
+
+### Esta landing page foi criada para uma cliente que trabalha em regime part-time. A página exibe alguns de seus serviços na área de estética capilar e direciona os usuários para o WhatsApp e o Instagram. Além disso, conta com um mapa integrado à API do Google Maps, que mostra a localização do estabelecimento e fornece a rota para chegar até lá.
+
+
+![shirlei hair](https://github.com/user-attachments/assets/ed34c084-8e56-4251-b81b-4c86990075e7)
+
+
+### Deploy https://shirleyhair.vercel.app/
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -13,6 +23,7 @@ pnpm dev
 # or
 bun dev
 ```
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
