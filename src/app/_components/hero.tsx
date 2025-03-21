@@ -17,6 +17,7 @@ export function Hero() {
                     fill
                     sizes='100vw'
                     quality={100}
+                     data-aos="fade-up-left"
                 />
             </div>
 
@@ -44,7 +45,7 @@ export function Hero() {
                         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold font-serif flex align-text-center justify-center">
                             Shirlei Nátali
                         </h1>
-                        <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold font-serif flex align-text-center justify-center" data-aos="fade-up-right">
+                        <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold font-serif flex align-text-center justify-center" data-aos="fade-up-left">
                             BraidsDesigner
                         </h2>
                         <p className="lg:text-lg" data-aos="fade-up-right">
@@ -59,21 +60,21 @@ export function Hero() {
                             Óla Shirlei vim pelo site e gostaria de saber mais sobre o seu trabalho`}  target="_blank"
                             className="bg-green-500 px-4 py-2 rounded-md font-semibold flex justify-center
                             hover:scale-110 duration-300 items-center w-fit gap-2">
-                            <WhatsappLogo className='w-5 h-5' />
+                            <WhatsappLogo className='w-5 h-5'  data-aos="fade-up-left"/>
                             WhatsApp</a>
 
                         <a href="https://www.instagram.com/shirleibraids/" target="_blank"
                             className="bg-[#833AB4] px-4 py-2 rounded-md font-semibold flex justify-center
                             hover:scale-110 duration-300 items-center w-fit gap-2">
-                            <InstagramLogo className='w-5 h-5' />
+                            <InstagramLogo className='w-5 h-5'  data-aos="fade-up-right"/>
                             Instagram</a>
 
 
                         <div className="mt-8">
-                            <p className="text-sm mb-4">
+                            <p className="text-sm mb-4"  data-aos="fade-up-left">
                                 Na linguagem Bantu, Trançar significa ser <b className="text-white">Feliz</b>!
                             </p>
-                            <div className='flex mt-4'>
+                            <div className='flex mt-4' data-aos="fade-up-right">
                                 <div className='w-35 ml-10'>
                                     <Image
                                         src={bg}
