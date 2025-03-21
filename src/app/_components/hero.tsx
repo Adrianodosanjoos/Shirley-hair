@@ -86,7 +86,7 @@ export function Hero() {
                     </div>
 
 
-                    <div className='hidden md:block h-full relative'>
+                    <div className='hidden md:block h-full relative'  data-aos="fade-up-left">
                         <Image
                             src={logoImg}
                             alt='logo'

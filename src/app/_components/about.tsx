@@ -17,7 +17,7 @@ export function About() {
 
                     <div className="relative">
 
-                        <div className="object-cover mb-20 w-full h-[400px] rounded-3xl overflow-hidden ">
+                        <div className="object-cover mb-20 w-full h-[400px] rounded-3xl overflow-hidden"  data-aos="fade-up-right">
                             <Image
                                 src={perfil}
                                 alt="perfil"
@@ -29,7 +29,7 @@ export function About() {
                         </div>
 
                         <div className="absolute w-40 h-40 right-4 -bottom-8 border-4 
-                                overflow-hidden border-black rounded-lg">
+                                overflow-hidden border-black rounded-lg"  data-aos="fade-up-left">
                             <Image
                                 src={fotoInfantil2}
                                 alt="fotoInfantil2"
@@ -53,10 +53,10 @@ export function About() {
 
                         />
 
-                        <h2 className="text-3xl lg:text-4xl font-serif flex align-text-center justify-center">Sobre Nós-Shirlei Braids</h2>
+                        <h2 className="text-3xl lg:text-4xl font-serif flex align-text-center justify-center"  data-aos="fade-up-right">Sobre Nós-Shirlei Braids</h2>
 
 
-                        <p>
+                        <p className="" data-aos="fade-up-left">
                             Na Shirlei Braids, entendemos que cada cliente é único, e acreditamos que seus cabelos devem refletir sua personalidade e estilo. Nossa equipe de profissionais altamente treinados é especializada em diversas técnicas de tranças e penteados, atendendo a diferentes culturas e preferências. Seja para um evento especial, uma ocasião diária ou simplesmente para realçar sua beleza natural, temos a solução perfeita para você.
 
                             Nosso compromisso vai além da estética. Valorizamos o atendimento ao cliente e a construção de relações duradouras. Aqui, você encontrará um ambiente acolhedor e amigável, onde cada cliente é tratado com carinho e respeito. Além disso, estamos sempre atualizados com as últimas tendências e inovações do setor, garantindo que você receba não apenas um serviço de alta qualidade, mas também uma experiência única.
@@ -69,27 +69,27 @@ export function About() {
 
                         <ul className="space-y-4">
 
-                            <li className="flex items-center gap-2">
+                            <li className="flex items-center gap-2"  data-aos="fade-up-right">
                                 <Check className="text-red-500" />
                                 Trancista Profissional há mais de 20 anos
                             </li>
 
-                            <li className="flex items-center gap-2">
+                            <li className="flex items-center gap-2"  data-aos="fade-up-left">
                                 <Check className="text-red-500" />
                                 Curso de trancista para iniciante
                             </li>
 
-                            <li className="flex items-center gap-2">
+                            <li className="flex items-center gap-2"  data-aos="fade-up-right">
                                 <Check className="text-red-500" />
                                 Penteados Para noivas
                             </li>
 
-                            <li className="flex items-center gap-2">
+                            <li className="flex items-center gap-2"  data-aos="fade-up-left">
                                 <Check className="text-red-500" />
                                 Penteados Infantil
                             </li>
 
-                            <li className="flex items-center gap-2">
+                            <li className="flex items-center gap-2"  data-aos="fade-up-right">
                                 <Check className="text-red-500" />
                                 Mega Hair
                             </li>
@@ -101,13 +101,13 @@ export function About() {
                             Óla Shirlei vim pelo site e gostaria de saber mais sobre o seu trabalho`} target="_blank"
                                 className="bg-green-500 px-4 py-2 rounded-md font-semibold flex justify-center
         hover:scale-110 duration-300 items-center w-fit gap-2">
-                                <WhatsappLogo className='w-5 h-5' />
+                                <WhatsappLogo className='w-5 h-5'  data-aos="fade-up-left"/>
                                 WhatsApp</a>
 
                             <a href="https://www.instagram.com/shirleibraids/" target="_blank"
                                 className="bg-[#833AB4] px-4 py-2 rounded-md font-semibold flex justify-center
         hover:scale-110 duration-300 items-center w-fit gap-2">
-                                <InstagramLogo className='w-5 h-5' />
+                                <InstagramLogo className='w-5 h-5'  data-aos="fade-up-right"/>
                                 Instagram</a>
 
 
