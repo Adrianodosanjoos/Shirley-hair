@@ -1,5 +1,6 @@
 import { WhatsappLogo } from "@phosphor-icons/react/dist/ssr"
 import { InstagramLogo } from "@phosphor-icons/react/dist/ssr"
+import { Copyright } from "@phosphor-icons/react/dist/ssr"
 
 export function Low() {
 
@@ -38,7 +39,7 @@ export function Low() {
 
             <div className="bg-[#373739] py-3 flex align-text-center justify-center text-white font-serif ">
 
-                <h1>Todos os direito autorais: <b>Adriano dos Anjos</b></h1>
+                <h1><Copyright/> <b>2025 Adriano dos Anjos</b> - Todos os direitos reservados</h1>
 
             </div>
 
