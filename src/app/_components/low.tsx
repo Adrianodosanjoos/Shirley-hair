@@ -39,7 +39,7 @@ export function Low() {
 
             <div className="bg-[#373739] py-3 flex align-text-center justify-center text-white font-serif ">
 
-                <h1 className="flex"><b><Copyright/> 2025 Adriano dos Anjos</b> - Todos os direitos reservados</h1>
+                <h1 className="flex align-text-center"><b><Copyright/> 2025 Adriano dos Anjos</b> - Todos os direitos reservados</h1>
 
             </div>
 
