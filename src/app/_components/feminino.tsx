@@ -24,7 +24,7 @@ import boxBraids from '../../../public/boxBraids.jpg'
 const services = [ 
 
     {
-        title: "Entrelace",
+        title: "Box Braids",
         image: boxBraids,
         duration: "6h a 9h",
         price: 'Privado',
